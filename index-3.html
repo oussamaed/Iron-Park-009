@@ -1,0 +1,1658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a0a0c">
+<meta name="color-scheme" content="dark light">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Iron Park">
+<meta property="og:title" content="Iron Park | Beni Tamou, Blida">
+<meta property="og:description" content="Games, food and fitness in one destination: Iron Land, Black House, Iron Gym, Iron Pool, Créneaux and more.">
+<meta property="og:image" content="https://res.cloudinary.com/k7sengsa/image/upload/v1790962403/Iron%20Park.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
+<link rel="preload" as="image" href="https://res.cloudinary.com/k7sengsa/image/upload/v1790962403/Iron%20Park.webp" fetchpriority="high">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AmusementPark","name":"Iron Park","image":"https://res.cloudinary.com/k7sengsa/image/upload/v1790962403/Iron%20Park.webp","address":{"@type":"PostalAddress","addressLocality":"Beni Tamou","addressRegion":"Blida","addressCountry":"DZ"},"sameAs":["https://instagram.com/ironparkdz"]}</script>
+<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+<title>Iron Park | Beni Tamou, Blida — Games, Food & Fitness</title>
+<meta name="description" content="Iron Park in Beni Tamou, Blida — a destination for fun, delicious food, and fitness. Discover Iron Land, Black House, Iron Gym, Iron Pool, Créneaux, and Shows.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.469.0/dist/umd/lucide.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+<style>
+  :root{
+    --black: #0a0a0c;
+    --black-soft: #131316;
+    --panel: #18181c;
+    --gold: #c9a24b;
+    --gold-bright: #e6c877;
+    --purple: #a855f7;
+    --purple-dim: rgba(168,85,247,0.35);
+    --text: #f2efe9;
+    --muted: #8f8f96;
+    --line: rgba(242,239,233,0.08);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--black); color:var(--text); font-family:'Inter',sans-serif; line-height:1.6; overflow-x:hidden;}
+  h1,h2,h3,.display{font-family:'Oswald',sans-serif; text-transform:uppercase; letter-spacing:0.01em; line-height:1.05;}
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 24px;}
+  :focus-visible{outline:2px solid var(--gold-bright); outline-offset:3px;}
+  svg.lucide{width:1em; height:1em; stroke-width:1.8;}
+  section[id]{scroll-margin-top:84px;}
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+    html{scroll-behavior:auto;}
+    .reveal{opacity:1 !important; transform:none !important;}
+  }
+
+  .reveal{opacity:0; transform:translateY(28px); transition:opacity .8s ease, transform .8s ease;}
+  .reveal.visible{opacity:1; transform:translateY(0);}
+  .reveal.d1{transition-delay:.08s;}
+  .reveal.d2{transition-delay:.16s;}
+
+  /* NAVBAR */
+  header{position:fixed; top:0; left:0; right:0; z-index:100; height:69px; background:rgba(10,10,12,0.10); backdrop-filter:blur(2px); border-bottom:1px solid rgba(255,255,255,0.08); transition:background .3s ease, backdrop-filter .3s ease, border-color .3s ease;}
+  header.scrolled{background:rgba(10,10,12,0.82); backdrop-filter:blur(10px); border-bottom:1px solid var(--line);}
+  header.scrolled{background:rgba(10,10,12,0.96); border-bottom-color:rgba(242,239,233,0.12);}
+  header.scrolled .logo span{color:#f2efe9;}
+  header.scrolled nav.links a{color:#d7d4ce;}
+  header.scrolled nav.links a:hover{color:#e6c877;}
+  header.scrolled .theme-toggle{color:#f2efe9; border-color:rgba(242,239,233,0.18);}
+  header.scrolled .theme-toggle:hover{color:#e6c877; border-color:#c9a24b;}
+  header.scrolled .burger span{background:#f2efe9;}
+  .nav-inner{height:69px; display:flex; align-items:center; justify-content:space-between; padding:0 24px; max-width:1180px; margin:0 auto;}
+  .logo{font-family:'Oswald',sans-serif; font-weight:700; font-size:1.3rem; letter-spacing:0.06em; color:var(--gold-bright);}
+  .logo span{color:var(--text);}
+  nav.links{display:flex; gap:22px;}
+  nav.links a{font-size:0.8rem; text-transform:uppercase; letter-spacing:0.07em; color:var(--muted); font-weight:500; transition:color .2s; padding:4px 0;}
+  nav.links a:hover{color:var(--gold-bright);}
+  .nav-cta{display:inline-block; padding:9px 20px; border:1px solid var(--gold); color:var(--gold-bright); font-size:0.78rem; text-transform:uppercase; letter-spacing:0.08em; font-weight:600; transition:all .25s;}
+  .nav-cta:hover{background:var(--gold); color:var(--black);}
+  .burger{display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:8px;}
+  .burger span{width:24px; height:2px; background:var(--text);}
+  .mobile-menu{display:none; flex-direction:column; gap:0; background:var(--black-soft); border-top:1px solid var(--line);}
+  .mobile-menu.open{display:flex;}
+  .mobile-menu a{padding:16px 24px; border-bottom:1px solid var(--line); text-transform:uppercase; font-size:0.85rem; letter-spacing:0.06em; color:var(--muted);}
+  @media (max-width:920px){
+    nav.links, .nav-cta{display:none;} .burger{display:flex;}
+    .mobile-menu{position:absolute; top:69px; right:16px; width:min(280px,calc(100vw - 32px)); max-height:calc(100vh - 86px); overflow-y:auto; border:1px solid var(--line); box-shadow:0 18px 50px rgba(0,0,0,.35); border-top:1px solid var(--gold);}
+    .mobile-menu .menu-link-group{border-bottom:1px solid var(--line);}
+    .mobile-menu .menu-link-group:last-child{border-bottom:0;}
+  }
+
+  /* OPEN NOW */
+  .open-now-btn{display:inline-flex; align-items:center; gap:8px; padding:13px 0; font-size:.82rem; text-transform:uppercase; letter-spacing:.06em; font-weight:700; border:0; color:#45d483; background:none; cursor:default; text-decoration:none;}
+  .open-now-btn.is-closed{color:#e56a6a;}
+  .open-now-btn::before{content:""; width:8px; height:8px; border-radius:50%; background:currentColor; box-shadow:0 0 10px currentColor;}
+  .delivery-inline-btn{display:inline-flex;align-items:center;gap:8px;margin-top:12px;padding:11px 16px;border:1px solid var(--gold);background:var(--gold-bright);color:var(--black);font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;transition:.2s;}
+  .delivery-inline-btn:hover{transform:translateY(-1px);filter:brightness(1.04);}
+  .share-card{max-width:460px;}
+  .share-options{padding:20px;display:grid;gap:10px;}
+  .share-option{display:flex;align-items:center;gap:12px;width:100%;padding:15px 16px;border:1px solid var(--line);background:none;color:var(--text);font:inherit;text-align:left;cursor:pointer;}
+  .share-option:hover{border-color:var(--gold);color:var(--gold-bright);}
+  .share-option svg{color:var(--gold-bright);flex-shrink:0;}
+
+  /* DELIVERY ITEM SEARCH */
+  .delivery-picker{padding:18px; border-bottom:1px solid var(--line); position:relative;}
+  .delivery-picker label{display:block; color:var(--gold-bright); font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; font-weight:700; margin-bottom:8px;}
+  .delivery-search-wrap{position:relative;}
+  .delivery-search{width:100%; background:var(--black-soft); border:1px solid var(--line); color:var(--text); padding:13px 14px; font:inherit; outline:none;}
+  .delivery-search:focus{border-color:var(--gold);}
+  .delivery-suggestions{position:absolute; left:0; right:0; top:100%; z-index:20; background:var(--panel); border:1px solid var(--line); border-top:0; max-height:240px; overflow-y:auto; display:none; box-shadow:0 14px 30px rgba(0,0,0,.3);}
+  .delivery-suggestions.open{display:block;}
+  .delivery-suggestion{width:100%; text-align:left; border:0; border-bottom:1px solid var(--line); background:none; color:var(--text); padding:12px 14px; cursor:pointer; font:inherit;}
+  .delivery-suggestion:hover,.delivery-suggestion:focus{background:rgba(168,85,247,.08); color:var(--gold-bright);}
+  .delivery-suggestion small{display:block; color:var(--muted); margin-top:2px; font-size:.72rem;}
+
+  /* Hide Google's floating translator UI; our Language menu controls it. */
+  .goog-te-banner-frame.skiptranslate{display:none !important;}
+  body{top:0 !important;}
+  .goog-te-gadget{font-size:0 !important;}
+  #google_translate_element{display:none !important;}
+
+
+  /* HERO */
+  .hero{margin-top:69px; position:relative; overflow:hidden; background:var(--black);}
+  .hero-media{position:relative; width:100%; line-height:0; overflow:hidden;}
+  .hero-media img{width:100%; height:auto; display:block;}
+  .hero-copy{padding:14px 0 44px; background:var(--black);}
+  .hero-eyebrow{color:var(--purple); font-size:0.78rem; text-transform:uppercase; letter-spacing:0.18em; font-weight:600; margin-bottom:9px; border-left:2px solid var(--purple); padding-left:12px;}
+  .hero h1{font-size:clamp(3rem, 11vw, 7.5rem); font-weight:700; color:var(--text); max-width:900px;}
+  .hero h1 .gold{color:var(--gold-bright);}
+  .hero-sub{font-size:clamp(1.05rem, 2.2vw, 1.4rem); color:var(--muted); max-width:520px; margin-top:10px; font-weight:400;}
+  .hero-actions{display:flex; gap:12px; margin-top:22px; flex-wrap:wrap;}
+  .btn-primary{display:inline-flex; align-items:center; gap:10px; background:var(--gold-bright); color:var(--black); font-weight:600; padding:16px 30px; font-size:0.9rem; text-transform:uppercase; letter-spacing:0.06em; transition:transform .25s, box-shadow .25s;}
+  .btn-primary:hover{transform:translateY(-2px); box-shadow:0 8px 28px rgba(230,200,119,0.25);}
+  .btn-primary:hover svg{transform:translateX(3px);}
+  .btn-primary svg{transition:transform .25s;}
+  .btn-ghost{display:inline-flex; align-items:center; gap:10px; border:1px solid var(--line); color:var(--text); padding:16px 26px; font-size:0.9rem; text-transform:uppercase; letter-spacing:0.06em; transition:border-color .25s;}
+  .btn-ghost:hover{border-color:var(--purple);}
+
+  .section-pad{padding:72px 0;}
+  .eyebrow{color:var(--purple); font-size:0.75rem; text-transform:uppercase; letter-spacing:0.18em; font-weight:600; margin-bottom:14px;}
+  .section-head{max-width:640px; margin-bottom:44px;}
+  .section-head h2{font-size:clamp(2rem,4.5vw,3rem); color:var(--text);}
+  .section-head p{color:var(--muted); margin-top:14px; font-size:1.02rem; max-width:520px;}
+
+  /* PILL NAV */
+  .pill-nav{display:flex; flex-wrap:wrap; gap:12px;}
+  .pill{display:inline-flex; align-items:center; justify-content:center; gap:7px; border:1px solid var(--line); padding:13px 18px; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.06em; font-weight:500; color:var(--muted); transition:all .25s; white-space:nowrap;}
+  .pill svg{color:var(--gold-bright); transition:color .25s; flex-shrink:0;}
+  .pill .pnum{color:var(--muted); font-family:'Oswald',sans-serif; font-size:0.7rem; margin-right:1px;}
+  .pill:hover{border-color:var(--purple); color:var(--text); box-shadow:0 0 18px -6px var(--purple-dim);}
+  .pill-more-btn{display:none; align-items:center; justify-content:center; gap:7px; border:1px solid var(--line); background:transparent; color:var(--muted); padding:13px 14px; font:500 .78rem 'Inter',sans-serif; text-transform:uppercase; letter-spacing:.06em; cursor:pointer; white-space:nowrap; transition:all .25s;}
+  .pill-more-btn:hover{border-color:var(--purple); color:var(--text); box-shadow:0 0 18px -6px var(--purple-dim);}
+  @media (max-width:720px){
+    .pill-nav{display:flex; flex-wrap:nowrap; align-items:stretch; gap:8px; overflow-x:auto; overflow-y:hidden; padding-bottom:4px; -webkit-overflow-scrolling:touch; scrollbar-width:none;}
+    .pill-nav::-webkit-scrollbar{display:none;}
+    .pill{flex:0 0 auto; width:auto; min-width:max-content; padding:12px 13px; font-size:.68rem; gap:4px;}
+    .pill-nav .pill:nth-child(n+3){display:none;}
+    .pill-more-btn{display:inline-flex; flex:0 0 auto; width:auto; margin:0; padding:12px 13px; font-size:.68rem;}
+    .pill-nav.expanded .pill{display:inline-flex;}
+  }
+
+  .ph-land{background:linear-gradient(135deg,rgba(27,19,48,0.25),rgba(58,31,92,0.22) 40%,rgba(10,10,12,0.72) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790964021/unnamed_2.webp') center/cover no-repeat;}
+  .ph-food{background:linear-gradient(135deg,rgba(36,20,8,0.2),rgba(74,42,15,0.18) 40%,rgba(10,10,12,0.62) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790963518/unnamed_1.webp') center/cover no-repeat;}
+  .ph-house-second{background:linear-gradient(135deg,rgba(36,20,8,0.18),rgba(74,42,15,0.16) 40%,rgba(10,10,12,0.62) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790964565/unnamed.jpg') center/cover no-repeat;}
+  .ph-gym{background:linear-gradient(135deg,rgba(21,21,21,0.18),rgba(44,44,44,0.16) 40%,rgba(10,10,12,0.62) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790964947/unnamed_3.webp') center/cover no-repeat;}
+  .ph-pool{background:linear-gradient(135deg,rgba(15,26,32,0.18),rgba(28,53,64,0.16) 40%,rgba(10,10,12,0.62) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790972399/Screenshot_2026-10-02-20-50-22-174_com.instagram.android-edit.jpg') center/cover no-repeat;}
+  .ph-field{background:linear-gradient(135deg,rgba(12,31,16,0.18),rgba(23,61,30,0.16) 40%,rgba(10,10,12,0.62) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790972400/Screenshot_2026-10-02-20-53-38-152_com.instagram.android-edit.jpg') center/cover no-repeat;}
+  .ph-shows{background:linear-gradient(135deg,rgba(42,15,36,0.18),rgba(77,26,69,0.16) 40%,rgba(10,10,12,0.62) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790972399/1790971439427.jpg') center/cover no-repeat;}
+  .ph-baratier{background:linear-gradient(135deg,rgba(38,27,14,0.18),rgba(86,57,20,0.16) 40%,rgba(10,10,12,0.64) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790974389/IMG_20261002_215006.jpg') center/cover no-repeat;}
+  .ph-carwash{background:linear-gradient(135deg,rgba(20,20,20,0.16),rgba(55,55,55,0.18) 40%,rgba(10,10,12,0.72) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790975160/images.jpg') center/cover no-repeat;}
+
+  .divider{height:1px; background:var(--line);}
+  /* shared detail bits */
+  .detail-num{font-family:'Oswald',sans-serif; color:var(--gold); font-size:0.85rem; letter-spacing:0.15em; margin-bottom:10px; display:flex; align-items:center; gap:8px;}
+  .tag{color:var(--gold-bright); font-size:1rem; margin-top:8px; text-transform:uppercase; letter-spacing:0.05em; font-weight:600;}
+  .chip-row{display:flex; flex-wrap:wrap; gap:8px; margin-top:16px;}
+  .chip{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); border:1px solid var(--line); padding:5px 12px;}
+  .info-icons{display:flex; flex-wrap:wrap; gap:22px; margin-top:26px;}
+  .info-icon-item{display:flex; align-items:center; gap:10px; font-size:0.88rem; color:var(--muted);}
+  .info-icon-item svg{color:var(--gold-bright); flex-shrink:0;}
+  .info-icon-item strong{color:var(--text); font-weight:600;}
+  .price-list{margin-top:22px; border-top:1px solid var(--line);}
+  .price-row{display:flex; justify-content:space-between; align-items:center; padding:13px 0; border-bottom:1px solid var(--line); font-size:0.92rem;}
+  .price-row span{color:var(--muted);}
+  .price-row strong{color:var(--gold-bright); font-weight:600; font-family:'Oswald',sans-serif; letter-spacing:0.03em;}
+  .note-line{display:flex; align-items:center; gap:8px; margin-top:16px; font-size:0.82rem; color:var(--muted);}
+  .note-line svg{color:var(--purple); flex-shrink:0;}
+  .detail-actions{display:flex; gap:14px; margin-top:30px; flex-wrap:wrap;}
+  .btn-small{display:inline-flex; align-items:center; gap:8px; padding:13px 24px; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.06em; font-weight:600; border:1px solid var(--gold); color:var(--gold-bright); transition:all .25s;}
+  .btn-small:hover{background:var(--gold); color:var(--black);}
+  .btn-small.alt{border-color:var(--line); color:var(--text);}
+  .btn-small.alt:hover{border-color:var(--purple); background:transparent; color:var(--purple);}
+  .back-link{display:inline-flex; align-items:center; gap:8px; margin-top:32px; font-size:0.76rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted); transition:color .25s;}
+  .back-link:hover{color:var(--gold-bright);}
+
+  /* generic tab system (menu categories / gym gender) */
+  .tab-row{display:flex; flex-wrap:nowrap; overflow-x:auto; gap:8px; margin-top:22px; padding-bottom:6px; -webkit-overflow-scrolling:touch;}
+  .tab-btn{flex:0 0 auto; font-size:0.76rem; text-transform:uppercase; letter-spacing:0.06em; padding:10px 18px; border:1px solid var(--line); color:var(--muted); background:none; cursor:pointer; transition:all .2s; font-family:'Inter',sans-serif;}
+  .tab-btn.active{border-color:var(--gold); color:var(--gold-bright);}
+  .tab-btn:hover{border-color:var(--purple); color:var(--text);}
+  .panel{display:none;}
+  .panel.active{display:block;}
+
+  .menu-sub-title{font-family:'Oswald',sans-serif; font-size:0.78rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--gold); margin:22px 0 4px;}
+  .menu-table-row{display:grid; grid-template-columns:1fr 52px 52px; gap:10px; padding:9px 0; border-bottom:1px solid var(--line); font-size:0.84rem; color:var(--muted);}
+  .menu-table-row.head{color:var(--gold-bright); font-weight:600; text-transform:uppercase; font-size:0.66rem; letter-spacing:0.06em;}
+  .menu-table-row strong{color:var(--text); font-weight:500;}
+  .menu-table-row3{display:grid; grid-template-columns:1fr 42px 42px 42px; gap:8px; padding:9px 0; border-bottom:1px solid var(--line); font-size:0.82rem; color:var(--muted);}
+  .menu-table-row3.head{color:var(--gold-bright); font-weight:600; text-transform:uppercase; font-size:0.62rem; letter-spacing:0.05em;}
+  .menu-table-row3 strong{color:var(--text); font-weight:500;}
+  .menu-soon{color:var(--muted); font-size:0.9rem; padding:26px 0;}
+
+  .member-table-wrap{overflow-x:auto; margin-top:6px;}
+  .member-table{width:100%; border-collapse:collapse; min-width:0; table-layout:fixed; font-size:0.78rem;}
+  .member-table th, .member-table td{padding:11px 12px; border-bottom:1px solid var(--line); text-align:center; white-space:nowrap;}
+  .member-table th{color:var(--gold-bright); text-transform:uppercase; font-size:0.66rem; letter-spacing:0.06em; font-weight:600;}
+  .member-table td:first-child, .member-table th:first-child{text-align:left; color:var(--text); font-weight:600;}
+  .member-table td{color:var(--muted);}
+
+  /* FULL MENU MODAL */
+  .menu-modal{position:fixed; inset:0; z-index:300; background:rgba(8,8,10,0.98); display:none; flex-direction:column;}
+  .menu-modal.open{display:flex;}
+  .menu-modal-head{display:flex; align-items:center; justify-content:space-between; padding:20px 24px; border-bottom:1px solid var(--line); flex-shrink:0;}
+  .menu-modal-head h3{font-size:1.2rem; color:var(--gold-bright);}
+  .menu-modal-close{width:38px; height:38px; border:1px solid var(--line); background:none; color:var(--text); display:flex; align-items:center; justify-content:center; cursor:pointer; transition:border-color .2s;}
+  .menu-modal-close:hover{border-color:var(--purple); color:var(--purple);}
+  .menu-modal-tabs{display:flex; flex-wrap:nowrap; overflow-x:auto; gap:8px; padding:16px 24px; border-bottom:1px solid var(--line); flex-shrink:0; -webkit-overflow-scrolling:touch;}
+  .menu-modal-body{flex:1; overflow-y:auto; padding:24px; max-width:640px; width:100%; margin:0 auto;}
+  body.menu-open{overflow:hidden;}
+
+  /* 01 IRON LAND */
+  .land-wrap{display:grid; grid-template-columns:1.3fr 1fr; gap:0; border:1px solid var(--line);}
+  @media (max-width:860px){.land-wrap{grid-template-columns:1fr;}}
+  .land-media{position:relative; min-height:460px; overflow:hidden; border-right:1px solid var(--purple-dim);}
+  .land-media .ph{position:absolute; inset:0; transition:transform .8s ease;}
+  .land-wrap:hover .land-media .ph{transform:scale(1.04);}
+  .land-copy{padding:56px; display:flex; flex-direction:column; justify-content:center;}
+  .land-copy h2{font-size:clamp(2rem,4vw,2.8rem);}
+
+  /* 02 BLACK HOUSE */
+  .house-wrap{display:grid; grid-template-columns:0.9fr 1.1fr; gap:56px; align-items:start;}
+  @media (max-width:860px){.house-wrap{grid-template-columns:1fr; gap:40px;}}
+  .house-media{position:relative; height:420px; cursor:pointer; perspective:900px;}
+  .house-media .img-a,.house-media .img-b{position:absolute; width:84%; height:78%; overflow:hidden; border:1px solid var(--purple-dim); transition:transform .45s ease, z-index .1s ease, box-shadow .45s ease; cursor:pointer; user-select:none;}
+  .house-media .img-a{top:0; left:0; z-index:2;}
+  .house-media .img-b{bottom:0; right:0; width:70%; height:60%; border-color:var(--gold); z-index:1;}
+  .house-media .img-a:hover,.house-media .img-b:hover{box-shadow:0 16px 40px rgba(0,0,0,.35);}
+  .house-media.swap .img-a{z-index:1; transform:translate(-5%,8%) scale(.92);}
+  .house-media.swap .img-b{z-index:3; transform:translate(-8%,-8%) scale(1.03);}
+  .house-media:not(.swap) .img-a{transform:translate(0,0) scale(1);}
+  .house-media:not(.swap) .img-b{transform:translate(0,0) scale(1);}
+  .house-media .ph{position:absolute; inset:0;}
+  .house-media .ph,.land-media .ph,.baratier-media .ph,.gym-banner .ph,.pool-wrap .ph,.field-banner .ph,.shows-banner .ph,.carwash-banner .ph{background-repeat:no-repeat; background-color:#0a0a0c;}
+  @media (max-width:860px){.house-media{height:340px;}}
+
+  /* 03 LE BARATIER */
+  .baratier-wrap{display:grid; grid-template-columns:0.95fr 1.05fr; gap:56px; align-items:center;}
+  @media (max-width:860px){.baratier-wrap{grid-template-columns:1fr; gap:34px;}}
+  .baratier-media{position:relative; min-height:440px; overflow:hidden; border:1px solid var(--gold);}
+  .baratier-media .ph{position:absolute; inset:0; transition:transform .8s ease;}
+  .baratier-wrap:hover .baratier-media .ph{transform:scale(1.04);}
+  .baratier-copy{padding:12px 0;}
+
+  /* 08 CAR WASH */
+  .carwash-banner{position:relative; min-height:380px; overflow:hidden; border:1px solid var(--gold); display:flex; align-items:center;}
+  .carwash-banner .ph{position:absolute; inset:0; transition:transform .8s ease;}
+  .carwash-banner:hover .ph{transform:scale(1.04);}
+  .carwash-banner::after{content:""; position:absolute; inset:0; background:linear-gradient(100deg, rgba(10,10,12,0.94) 15%, rgba(10,10,12,0.38) 100%);}
+  .carwash-copy{position:relative; z-index:2; padding:56px; max-width:560px;}
+  .carwash-copy h2{font-size:clamp(2.2rem,5vw,3.2rem);}
+  @media (max-width:720px){.carwash-copy{padding:40px 28px;}}
+
+  /* 04 IRON GYM */
+  .gym-banner{position:relative; min-height:380px; overflow:hidden; border:1px solid var(--line); margin-bottom:0;}
+  .gym-banner .ph{position:absolute; inset:0;}
+  .gym-banner::after{content:""; position:absolute; inset:0; background:linear-gradient(0deg, rgba(10,10,12,0.95) 0%, rgba(10,10,12,0.2) 55%);}
+  .gym-banner-copy{position:relative; z-index:2; height:100%; display:flex; flex-direction:column; justify-content:flex-end; padding:44px;}
+  .gym-stats{display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--line); border-top:none;}
+  @media (max-width:720px){.gym-stats{grid-template-columns:repeat(2,1fr);}}
+  .gym-stat{padding:26px 22px; border-right:1px solid var(--line); border-bottom:1px solid var(--line);}
+  .gym-stat:last-child{border-right:none;}
+  .gym-stat svg{color:var(--purple); margin-bottom:10px;}
+  .gym-stat .label{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin-bottom:4px;}
+  .gym-stat .value{font-size:0.95rem; color:var(--text); font-weight:600;}
+  .gym-membership{padding:34px 0 0;}
+  .gym-membership h3{font-size:1.1rem; color:var(--text); text-transform:none; font-family:'Inter',sans-serif; font-weight:600;}
+  .gym-actions{padding:34px 0 0;}
+
+  /* 04 IRON POOL */
+  .pool-wrap{position:relative; min-height:480px; overflow:hidden; border:1px solid var(--line); display:flex; align-items:center; justify-content:center; text-align:center;}
+  .pool-wrap .ph{position:absolute; inset:0; transition:transform .8s ease;}
+  .pool-wrap:hover .ph{transform:scale(1.03);}
+  .pool-wrap::after{content:""; position:absolute; inset:0; background:radial-gradient(ellipse at center, rgba(10,10,12,0.55) 0%, rgba(10,10,12,0.94) 85%);}
+  .pool-bignum{position:absolute; z-index:1; font-family:'Oswald',sans-serif; font-size:min(40vw,320px); font-weight:700; color:rgba(242,239,233,0.035); top:50%; left:50%; transform:translate(-50%,-52%); user-select:none; pointer-events:none;}
+  .pool-copy{position:relative; z-index:2; max-width:480px; padding:40px;}
+  .pool-copy .detail-num{justify-content:center;}
+  .pool-copy .info-icons{justify-content:center;}
+  .pool-copy .detail-actions{justify-content:center;}
+  .pool-copy .note-line{justify-content:center;}
+
+  /* 05 CRÉNEAUX */
+  .field-banner{position:relative; min-height:420px; overflow:hidden; border:1px solid var(--gold); display:flex; align-items:center;}
+  .field-banner .ph{position:absolute; inset:0; transition:transform .8s ease;}
+  .field-banner:hover .ph{transform:scale(1.04);}
+  .field-banner::after{content:""; position:absolute; inset:0; background:linear-gradient(100deg, rgba(10,10,12,0.95) 20%, rgba(10,10,12,0.35) 100%);}
+  .field-copy{position:relative; z-index:2; padding:56px; max-width:560px;}
+  .field-copy h2{font-size:clamp(2.2rem,5vw,3.2rem);}
+
+  /* 06 SHOWS */
+  .shows-banner{position:relative; min-height:400px; overflow:hidden; border:1px solid var(--purple-dim); display:flex; align-items:center; justify-content:center; text-align:center;}
+  .shows-banner .ph{position:absolute; inset:0; transition:transform .8s ease;}
+  .shows-banner:hover .ph{transform:scale(1.04);}
+  .shows-banner::after{content:""; position:absolute; inset:0; background:radial-gradient(ellipse at center, rgba(10,10,12,0.5) 0%, rgba(10,10,12,0.94) 88%);}
+  .shows-copy{position:relative; z-index:2; max-width:520px; padding:40px;}
+  .shows-copy .detail-num{justify-content:center;}
+  .shows-copy .note-line{justify-content:center; margin-top:20px;}
+  .shows-copy .detail-actions{justify-content:center;}
+
+  /* LOCATION */
+  .location{display:grid; grid-template-columns:1fr 1fr; gap:0; align-items:stretch; border:1px solid var(--line);}
+  @media (max-width:860px){.location{grid-template-columns:1fr;}}
+  .location-info{padding:56px; display:flex; flex-direction:column; justify-content:center;}
+  .location-info h2{font-size:2rem; color:var(--text);}
+  .location-info p{color:var(--muted); margin-top:14px;}
+  .location iframe{width:100%; height:100%; min-height:320px; border:0; filter:grayscale(0.3) invert(0.92) contrast(0.9);}
+
+  /* FINAL CTA */
+  .final-cta{position:relative; text-align:center; padding:120px 24px; border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    background:radial-gradient(ellipse 60% 100% at 50% 100%, rgba(168,85,247,0.10), transparent 70%);}
+  .final-cta h2{font-size:clamp(2rem,5vw,3.4rem); max-width:640px; margin:0 auto;}
+  .final-cta p{color:var(--muted); margin:18px auto 0; max-width:460px;}
+  .final-cta .hero-actions{justify-content:center; margin-top:36px;}
+
+  /* FOOTER */
+  footer{padding:64px 0 32px;}
+  .footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:48px; margin-bottom:56px;}
+  @media (max-width:720px){.footer-grid{grid-template-columns:1fr; gap:36px;}}
+  .footer-grid h4{font-size:0.78rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--gold-bright); margin-bottom:18px;}
+  .footer-grid p, .footer-grid a{color:var(--muted); font-size:0.92rem; display:block; margin-bottom:10px;}
+  .footer-grid a:hover{color:var(--text);}
+  .footer-bottom{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; padding-top:28px; border-top:1px solid var(--line); font-size:0.8rem; color:var(--muted);}
+  .social-row{display:flex; gap:16px;}
+  .social-row a{width:38px; height:38px; border:1px solid var(--line); display:flex; align-items:center; justify-content:center; color:var(--muted); transition:all .2s;}
+  .social-row a:hover{border-color:var(--purple); color:var(--purple);}
+
+
+  /* THEME TOGGLE */
+  .theme-toggle{min-width:42px;height:40px;padding:0 12px;gap:7px;border:1px solid var(--line);background:transparent;color:var(--text);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:all .25s;margin-left:10px;font-family:'Inter',sans-serif;font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap;}
+  .theme-toggle:hover{border-color:var(--gold);color:var(--gold-bright);}
+  .theme-toggle svg{width:17px;height:17px;}
+
+  /* LIGHT MODE */
+  body.light-mode{
+    --black:#f5f4f1;
+    --black-soft:#ebe9e4;
+    --panel:#ffffff;
+    --text:#17171a;
+    --muted:#606168;
+    --line:rgba(23,23,26,0.12);
+    --gold:#a77d21;
+    --gold-bright:#9a741e;
+    --purple:#8740c2;
+    --purple-dim:rgba(135,64,194,0.24);
+  }
+  body.light-mode header{background:rgba(245,244,241,0.10); border-bottom-color:rgba(255,255,255,0.18); backdrop-filter:blur(2px);}
+  body.light-mode header.scrolled{background:rgba(245,244,241,0.90); border-bottom-color:var(--line); backdrop-filter:blur(10px);}
+  body.light-mode .mobile-menu{background:var(--black-soft);}
+  body.light-mode .menu-modal{background:rgba(245,244,241,0.99);}
+  body.light-mode .menu-modal-close{background:var(--panel);}
+  body.light-mode .location iframe{filter:grayscale(0.15) contrast(0.95);}
+  body.light-mode .final-cta{background:radial-gradient(ellipse 60% 100% at 50% 100%,rgba(135,64,194,0.08),transparent 70%);}
+  body.light-mode .gym-banner::after{background:linear-gradient(0deg,rgba(10,10,12,0.82) 0%,rgba(10,10,12,0.12) 55%);}
+  body.light-mode .field-banner::after{background:linear-gradient(100deg,rgba(10,10,12,0.82) 20%,rgba(10,10,12,0.25) 100%);}
+  body.light-mode .carwash-banner::after{background:linear-gradient(100deg,rgba(10,10,12,0.82) 15%,rgba(10,10,12,0.25) 100%);}
+  body.light-mode .pool-wrap::after{background:radial-gradient(ellipse at center,rgba(10,10,12,0.42) 0%,rgba(10,10,12,0.82) 85%);}
+  body.light-mode .shows-banner::after{background:radial-gradient(ellipse at center,rgba(10,10,12,0.40) 0%,rgba(10,10,12,0.82) 88%);}
+  body.light-mode .ph-land{background:linear-gradient(135deg,rgba(27,19,48,0.12),rgba(58,31,92,0.12) 40%,rgba(10,10,12,0.48) 100%),url('https://res.cloudinary.com/k7sengsa/image/upload/v1790964021/unnamed_2.webp') center/cover no-repeat;}
+  body.light-mode .ph-food,.light-mode .ph-house-second{filter:saturate(1.03);}
+  /* Keep text over photography readable and visually consistent in both themes */
+  body.light-mode .hero h1,
+  body.light-mode .hero-sub,
+  body.light-mode .gym-banner h2,
+  body.light-mode .field-banner h2,
+  body.light-mode .shows-banner h2,
+  body.light-mode .pool-copy h2,
+  body.light-mode .carwash-copy h2{color:#f2efe9;}
+  body.light-mode .hero-sub{color:#d7d4ce;}
+  body.light-mode .gym-banner .tag,
+  body.light-mode .field-banner .tag,
+  body.light-mode .shows-banner .tag,
+  body.light-mode .pool-copy .tag,
+  body.light-mode .carwash-copy .tag{color:#e6c877;}
+  @media (max-width:920px){.theme-toggle{margin-left:auto;margin-right:6px;}}
+
+  /* STATUS / UTILITY / MODALS */
+  .utility-row{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 0}
+  .utility-btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--panel);color:var(--text);padding:11px 15px;font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;transition:.2s}
+  .utility-btn:hover{border-color:var(--gold);color:var(--gold-bright);transform:translateY(-1px)}
+  .gallery-trigger{margin-top:18px}
+  .overlay-modal{position:fixed;inset:0;z-index:300;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(0,0,0,.82);backdrop-filter:blur(8px)}
+  .overlay-modal.open{display:flex}
+  .overlay-card{width:min(720px,100%);max-height:90vh;overflow:auto;background:var(--panel);border:1px solid var(--line);box-shadow:0 25px 80px rgba(0,0,0,.45)}
+  .overlay-head{display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid var(--line)}
+  .overlay-head h3{font-size:1.2rem}.overlay-close{border:1px solid var(--line);background:none;color:var(--text);width:38px;height:38px;display:grid;place-items:center;cursor:pointer}
+  .lightbox-stage{position:relative;display:flex;align-items:center;justify-content:center;padding:18px;min-height:280px}.lightbox-stage img{max-width:100%;max-height:68vh;width:auto;height:auto;object-fit:contain}
+  .lightbox-nav{position:absolute;inset:0;display:flex;align-items:center;justify-content:space-between;padding:0 10px;pointer-events:none}.lightbox-nav button{pointer-events:auto;width:42px;height:42px;border:1px solid rgba(255,255,255,.25);background:rgba(0,0,0,.55);color:#fff;cursor:pointer}
+  .qr-body{padding:28px;text-align:center}.qr-body #qrCode{display:flex;justify-content:center;background:#fff;padding:16px;width:max-content;margin:0 auto 18px}.qr-body p{color:var(--muted);font-size:.9rem}
+  .rules-body{padding:24px}.rules-list{display:grid;gap:12px}.rules-list div{padding:12px 14px;border:1px solid var(--line);color:var(--text);background:rgba(255,255,255,.02)}
+  .menu-link-group{border-bottom:1px solid var(--line)}.menu-link-group button{width:100%;padding:16px 24px;background:none;border:0;color:var(--muted);text-align:left;text-transform:uppercase;font-size:.85rem;letter-spacing:.06em;cursor:pointer;display:flex;justify-content:space-between;align-items:center}.menu-sub{display:none;background:rgba(255,255,255,.025)}.menu-sub.open{display:block}.menu-sub button{padding:12px 38px;font-size:.75rem;border-top:1px solid var(--line)}
+  .cart-list{padding:18px;display:grid;gap:10px}.cart-item{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;border:1px solid var(--line);padding:11px}.cart-item small{color:var(--muted)}.qty-btn{width:28px;height:28px;border:1px solid var(--line);background:none;color:var(--text);cursor:pointer}.cart-summary{padding:18px;border-top:1px solid var(--line);display:grid;gap:12px}.cart-summary input,.cart-summary textarea{width:100%;background:var(--black-soft);border:1px solid var(--line);color:var(--text);padding:11px;font:inherit}.cart-summary textarea{min-height:80px;resize:vertical}.cart-total{display:flex;justify-content:space-between;font-weight:800;color:var(--gold-bright)}
+  .delivery-add{margin-left:auto;border:1px solid var(--gold);background:none;color:var(--gold-bright);padding:5px 9px;cursor:pointer;font-size:.72rem;font-weight:700}.delivery-added{color:#45d483;font-size:.72rem}
+
+
+  /* TIGHTER MOBILE SPACING — keep sections connected without large empty gaps */
+  @media (max-width:720px){
+    .member-table-wrap{overflow-x:hidden;}
+    .member-table{font-size:.68rem;}
+    .member-table th,.member-table td{padding:8px 4px;white-space:nowrap;}
+    .member-table th{font-size:.56rem;letter-spacing:.02em;}
+    .member-table th:first-child,.member-table td:first-child{width:24%;}
+    .member-table th:not(:first-child),.member-table td:not(:first-child){width:25.33%;}
+    .hero-copy{padding:14px 0 34px;}
+    #experiences.section-pad{padding-top:38px; padding-bottom:44px;}
+    .section-pad{padding:44px 0;}
+    .section-head{margin-bottom:28px;}
+    .house-media{height:300px;}
+    .baratier-wrap{gap:24px;}
+    .land-copy{padding:34px 28px;}
+    .back-link{margin-top:24px;}
+  }
+  /* WARM WOOD + LIGHT CARAMEL CAFE PALETTE */
+  :root{--cafe-wood:#6f4a32;--cafe-wood-dark:#4b3020;--cafe-caramel:#c99a62;--cafe-cream:#f4eadb;--cafe-white:#fffdf9;}
+  body.light-mode{--black:#f4eadb;--black-soft:#eadbc8;--panel:#fffdf9;--text:#33241b;--muted:#756458;--line:rgba(75,48,32,.14);--gold:#a9783e;--gold-bright:#b78346;}
+  body.light-mode header,body.light-mode header.scrolled{background:var(--cafe-wood-dark);border-bottom-color:rgba(255,255,255,.12);backdrop-filter:none;}
+  body.light-mode .logo{color:#e8c18a;} body.light-mode .logo span,body.light-mode header.scrolled .logo span{color:#fff8ee;}
+  body.light-mode nav.links a,body.light-mode header.scrolled nav.links a{color:#f0dfca;} body.light-mode nav.links a:hover,body.light-mode header.scrolled nav.links a:hover{color:#f3c987;}
+  body.light-mode .theme-toggle,body.light-mode header.scrolled .theme-toggle{color:#fff8ee;border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.06);}
+  body.light-mode .theme-toggle:hover,body.light-mode header.scrolled .theme-toggle:hover{color:#f3c987;border-color:#c99a62;}
+  body.light-mode .burger span,body.light-mode header.scrolled .burger span{background:#fff8ee;}
+  body.light-mode .mobile-menu{background:var(--cafe-wood-dark);border-top-color:var(--cafe-caramel);}
+  body.light-mode .hero,body.light-mode .hero-copy,body.light-mode .section-pad,body.light-mode footer{background:var(--cafe-cream);}
+  body.light-mode .hero h1,body.light-mode .section-head h2,body.light-mode .location-info h2,body.light-mode .final-cta h2{color:var(--cafe-wood-dark);}
+  body.light-mode .hero-sub,body.light-mode .section-head p,body.light-mode .location-info p,body.light-mode .final-cta p{color:#756458;}
+  body.light-mode .hero h1 .gold{color:var(--cafe-caramel);}
+  body.light-mode .pill{background:#fffaf3;border-color:rgba(111,74,50,.20);color:#69584b;box-shadow:0 2px 0 rgba(111,74,50,.05);}
+  body.light-mode .pill svg{color:var(--cafe-caramel);} body.light-mode .pill .pnum{color:#9a7857;}
+  body.light-mode .pill-more-btn{background:#fffaf3;border-color:rgba(111,74,50,.20);color:#69584b;}
+  body.light-mode .pill:hover,body.light-mode .pill-more-btn:hover{border-color:var(--purple);color:var(--purple);}
+  body.light-mode .land-wrap,body.light-mode .house-wrap,body.light-mode .baratier-wrap,body.light-mode .location{background:#fffaf3;border-color:rgba(111,74,50,.18);}
+  body.light-mode .land-copy,body.light-mode .baratier-copy{background:linear-gradient(180deg,#fffaf3 0%,#f1dfc7 100%);}
+  body.light-mode .land-copy h2,body.light-mode .house-wrap h2,body.light-mode .baratier-copy h2{color:var(--cafe-wood-dark);}
+  body.light-mode .tag{color:#8b633f;} body.light-mode .detail-num{color:#9b724d;}
+  body.light-mode .price-row,body.light-mode .menu-table-row{border-bottom-color:rgba(111,74,50,.13);}
+  body.light-mode .divider{background:rgba(111,74,50,.13);} body.light-mode .price-row span,body.light-mode .menu-table-row span,body.light-mode .note-line,body.light-mode .info-icon-item{color:#756458;}
+  body.light-mode .info-icon-item strong,body.light-mode .price-row strong{color:var(--cafe-wood-dark);}
+  body.light-mode .btn-small{border-color:#b78346;color:#8b633f;} body.light-mode .btn-small:hover{background:#b78346;color:#fffaf3;}
+  body.light-mode .btn-small.alt{border-color:rgba(111,74,50,.18);color:var(--cafe-wood-dark);}
+  body.light-mode .utility-btn{background:#fffaf3;border-color:rgba(111,74,50,.18);color:var(--cafe-wood-dark);}
+  body.light-mode .final-cta{background:linear-gradient(180deg,#f4eadb,#ead8bf);}
+
+  /* ===== MODERN POLISH ===== */
+  :root{color-scheme:dark;-webkit-tap-highlight-color:transparent;}
+  body.light-mode{color-scheme:light;}
+  h1,h2,h3{text-wrap:balance;}
+  p{text-wrap:pretty;}
+  section.section-pad{content-visibility:auto;contain-intrinsic-size:auto 720px;}
+  body:has(.overlay-modal.open,.menu-modal.open){overflow:hidden;}
+  .overlay-card,.menu-modal{overscroll-behavior:contain;}
+  .qty-btn{width:36px;height:36px;}
+  .overlay-close,.menu-modal-close{min-width:44px;min-height:44px;}
+  .pill,.btn-primary,.btn-ghost,.btn-small,.tab-btn,.utility-btn{min-height:44px;}
+  nav.links a.is-active{color:var(--gold-bright);box-shadow:0 2px 0 var(--gold-bright);}
+  .pill:active,.btn-primary:active,.btn-ghost:active,.btn-small:active{transform:scale(.98);}
+
+  /* ===== SEPARATED SECTION CARDS ===== */
+  #iron-land,#black-house,#le-baratier,#iron-gym,#iron-pool,#creneaux,#shows,#car-wash{width:min(1180px,calc(100% - 32px)); margin:20px auto; padding:36px 0; background:var(--panel); border:1px solid var(--line); border-radius:20px; box-shadow:0 2px 12px rgba(0,0,0,.18); overflow:hidden; transition:box-shadow .3s ease, border-color .3s ease;}
+  #iron-land:hover,#black-house:hover,#le-baratier:hover,#iron-gym:hover,#iron-pool:hover,#creneaux:hover,#shows:hover,#car-wash:hover{box-shadow:0 12px 32px rgba(0,0,0,.28); border-color:var(--purple-dim);}
+  .wrap:has(> .divider){display:none;}
+  .land-wrap,.gym-banner,.pool-wrap,.field-banner,.shows-banner,.carwash-banner{border-radius:14px; overflow:hidden;}
+  body.light-mode {--card-shadow:rgba(75,48,32,.12);}
+  body.light-mode :is(#iron-land,#black-house,#le-baratier,#iron-gym,#iron-pool,#creneaux,#shows,#car-wash){box-shadow:0 2px 12px rgba(75,48,32,.10);}
+  @media (max-width:720px){
+    #iron-land,#black-house,#le-baratier,#iron-gym,#iron-pool,#creneaux,#shows,#car-wash{width:calc(100% - 20px); margin:14px auto; padding:22px 0; border-radius:16px;}
+  }
+
+  /* ===== DARK MODE: all-black cards, gold border + soft purple glow that follows the scroll ===== */
+  body:not(.light-mode) :is(#iron-land,#black-house,#le-baratier,#iron-gym,#iron-pool,#creneaux,#shows,#car-wash){position:relative; background:var(--black); border:1px solid rgba(201,162,75,.28); box-shadow:0 0 0 1px rgba(168,85,247,calc(.02 + var(--glow,.4)*.04)), 0 0 28px -14px rgba(168,85,247,calc(.08 + var(--glow,.4)*.16)); transition:box-shadow .6s ease, border-color .6s ease;}
+  body:not(.light-mode) :is(#iron-land,#black-house,#le-baratier,#iron-gym,#iron-pool,#creneaux,#shows,#car-wash):hover{border-color:rgba(168,85,247,.40); box-shadow:0 0 0 1px rgba(168,85,247,.10), 0 0 30px -12px rgba(168,85,247,.28);}
+  body:not(.light-mode) :is(#iron-land,#black-house,#le-baratier,#iron-gym,#iron-pool,#creneaux,#shows,#car-wash)::before{content:""; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,transparent 0%,var(--gold) 30%,var(--purple) 50%,var(--gold) 70%,transparent 100%); background-size:220% 100%; background-position:calc(var(--sp,0)*100%) 0; opacity:calc(.25 + var(--glow,.4)*.35); pointer-events:none; transition:opacity .6s ease;}
+
+  /* ===== TIGHTER INTRO: heading + option strip sit close to the Iron Land card ===== */
+  #experiences.section-pad{padding-bottom:6px !important;}
+  #experiences .section-head{margin-bottom:16px;}
+  #experiences .section-head p{margin-top:8px;}
+  #iron-land{margin-top:8px;}
+  @media (max-width:720px){
+    #experiences.section-pad{padding-bottom:4px !important;}
+    #experiences .section-head{margin-bottom:14px;}
+    #iron-land{margin-top:6px;}
+  }
+</style>
+</head>
+<body>
+<div id="google_translate_element" aria-hidden="true"></div>
+
+<header id="site-header">
+  <div class="nav-inner">
+    <a href="#top" class="logo">IRON<span>PARK</span></a>
+    <nav class="links">
+      <a href="#iron-land">Iron Land</a>
+      <a href="#black-house">Black House</a>
+      <a href="#le-baratier">Le Baratier</a>
+      <a href="#iron-gym">Iron Gym</a>
+      <a href="#iron-pool">Iron Pool</a>
+      <a href="#creneaux">Créneaux</a>
+      <a href="#shows">Shows</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Dark Mode" title="Dark Mode"><svg data-lucide="moon" width="16" height="16"></svg><span>Dark Mode</span></button>
+    <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="menu-link-group">
+      <button type="button" class="menu-group-btn">Language <span>+</span></button>
+      <div class="menu-sub">
+        <button type="button" data-lang="en">English</button>
+        <button type="button" data-lang="fr">Français</button>
+        <button type="button" data-lang="ar">العربية</button>
+      </div>
+    </div>
+    <div class="menu-link-group">
+      <button type="button" class="menu-group-btn" id="rulesBtn">Rules <span>›</span></button>
+    </div>
+    <div class="menu-link-group">
+      <button type="button" class="menu-group-btn" id="menuShareBtn">Share <span>›</span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="https://res.cloudinary.com/k7sengsa/image/upload/v1790962403/Iron%20Park.webp" alt="Iron Park entrance in Beni Tamou, Blida" fetchpriority="high">
+    </div>
+    <div class="hero-copy">
+      <div class="wrap">
+        <div class="hero-eyebrow">Beni Tamou · Blida</div>
+        <h1>IRON <span class="gold">PARK</span></h1>
+        <p class="hero-sub">Your destination for fun, delicious food, and fitness.</p>
+        <div class="hero-actions">
+          <a href="#experiences" class="btn-primary">Start Your Journey <svg data-lucide="arrow-right" width="16" height="16"></svg></a>
+          <a href="https://wa.me/213553443284" class="btn-ghost" target="_blank" rel="noopener"><svg data-lucide="message-circle" width="16" height="16"></svg> WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE OVERVIEW — slim pill navigation -->
+  <section class="section-pad" id="experiences" style="padding-bottom:60px;">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">What's Here</div>
+        <h2>Eight experiences, one destination</h2>
+        <p>Choose the place you'd like to explore :</p>
+      </div>
+      <nav class="pill-nav reveal">
+        <a href="#iron-land" class="pill"><span class="pnum">01</span><svg data-lucide="gamepad-2" width="16" height="16"></svg> Iron Land</a>
+        <a href="#black-house" class="pill"><span class="pnum">02</span><svg data-lucide="utensils" width="16" height="16"></svg> Black House</a>
+        <a href="#le-baratier" class="pill"><span class="pnum">03</span><svg data-lucide="utensils" width="16" height="16"></svg> Le Baratier</a>
+        <a href="#iron-gym" class="pill"><span class="pnum">04</span><svg data-lucide="dumbbell" width="16" height="16"></svg> Iron Gym</a>
+        <a href="#iron-pool" class="pill"><span class="pnum">05</span><svg data-lucide="circle-dot" width="16" height="16"></svg> Iron Pool</a>
+        <a href="#creneaux" class="pill"><span class="pnum">06</span><svg data-lucide="goal" width="16" height="16"></svg> Créneaux</a>
+        <a href="#shows" class="pill"><span class="pnum">07</span><svg data-lucide="sparkles" width="16" height="16"></svg> Shows</a>
+        <a href="#car-wash" class="pill"><span class="pnum">08</span><svg data-lucide="car" width="16" height="16"></svg> Car Wash</a>
+      <button type="button" class="pill-more-btn" id="pillMoreBtn" aria-expanded="false">
+        <span id="pillMoreText">View More</span> <svg id="pillMoreIcon" data-lucide="arrow-right" width="15" height="15"></svg>
+      </button>
+      </nav>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- 01 IRON LAND -->
+  <section class="section-pad" id="iron-land">
+    <div class="wrap">
+      <div class="land-wrap reveal">
+        <div class="land-media"><div class="ph ph-land"></div></div>
+        <div class="land-copy">
+          <div class="detail-num"><svg data-lucide="gamepad-2" width="16" height="16"></svg> 01 / IRON LAND</div>
+          <h2>Iron Land</h2>
+          <div class="tag">Play &amp; Have Fun</div>
+          <div class="info-icons">
+            <div class="info-icon-item"><svg data-lucide="clock" width="18" height="18"></svg> <span><strong>Hours</strong><br>14:00–23:00</span></div>
+            <div class="info-icon-item"><svg data-lucide="phone" width="18" height="18"></svg> <span><strong>Contact</strong><br>05 53 44 32 84</span></div>
+          </div>
+          <div class="price-list">
+            <div class="price-row"><span>Trampoline Park</span><strong>1000 DA</strong></div>
+            <div class="price-row"><span>Auto Tamponneuse</span><strong>300 DA</strong></div>
+          </div>
+          <div class="note-line"><svg data-lucide="car" width="15" height="15"></svg> Free parking inside Iron Park for all visitors</div>
+          <div class="detail-actions">
+            <a href="https://wa.me/213553443284" class="btn-small" target="_blank" rel="noopener"><svg data-lucide="message-circle" width="16" height="16"></svg> WhatsApp</a>
+            <a href="tel:+213553443284" class="btn-small alt"><svg data-lucide="phone" width="16" height="16"></svg> Call Now</a>
+            <button type="button" class="open-now-btn" data-open-schedule="14:00-23:00" aria-live="polite">Open Now</button>
+          </div>
+          <button type="button" class="utility-btn gallery-trigger" data-gallery="iron-land"><svg data-lucide="images" width="16" height="16"></svg> Gallery</button>
+          <a href="#experiences" class="back-link"><svg data-lucide="arrow-up" width="13" height="13"></svg> Back to Experiences</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- 02 BLACK HOUSE -->
+  <section class="section-pad" id="black-house">
+    <div class="wrap">
+      <div class="house-wrap">
+        <div class="house-media reveal">
+          <div class="img-a"><div class="ph ph-food"></div></div>
+          <div class="img-b"><div class="ph ph-house-second"></div></div>
+        </div>
+        <div class="reveal d1">
+          <div class="detail-num"><svg data-lucide="utensils" width="16" height="16"></svg> 02 / BLACK HOUSE</div>
+          <h2>Black House</h2>
+          <div class="tag">Cafeteria &amp; Ristorante</div>
+          <p style="color:var(--muted); margin-top:16px; max-width:440px; font-size:0.95rem;">Breakfast, dinner, drinks, and desserts — Black House brings together Iron Park's cafeteria and ristorante in one place.</p>
+          <div class="info-icons">
+            <div class="info-icon-item"><svg data-lucide="clock" width="18" height="18"></svg> <span><strong>Hours</strong><br>12:00–00:00</span></div>
+            <div class="info-icon-item"><svg data-lucide="phone" width="18" height="18"></svg> <span><strong>Contact</strong><br>[TO BE PROVIDED]</span></div>
+          </div>
+          <div class="detail-actions">
+            <button type="button" id="openMenuBtn" class="btn-small"><svg data-lucide="book-open" width="16" height="16"></svg> View Full Menu</button>
+            <button type="button" class="open-now-btn" data-open-schedule="12:00-24:00" aria-live="polite">Open Now</button>
+          </div>
+          <button type="button" class="delivery-inline-btn delivery-trigger"><svg data-lucide="shopping-bag" width="16" height="16"></svg> Delivery</button>
+          <button type="button" class="utility-btn gallery-trigger" data-gallery="black-house"><svg data-lucide="images" width="16" height="16"></svg> Gallery</button>
+          <a href="#experiences" class="back-link"><svg data-lucide="arrow-up" width="13" height="13"></svg> Back to Experiences</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- BLACK HOUSE — FULL MENU MODAL -->
+  <div class="menu-modal" id="menuModal" role="dialog" aria-modal="true" aria-label="Black House full menu">
+    <div class="menu-modal-head">
+      <h3>Black House — Full Menu</h3>
+      <button type="button" class="menu-modal-close" id="closeMenuBtn" aria-label="Close menu"><svg data-lucide="x" width="18" height="18"></svg></button>
+    </div>
+    <div class="menu-modal-tabs tab-row" id="menuTabs">
+      <button class="tab-btn active" data-panel="m-pizza-blanche">Pizza Sauce Blanche</button>
+      <button class="tab-btn" data-panel="m-pizza-rouge">Pizza Sauce Rouge</button>
+      <button class="tab-btn" data-panel="m-burger">Burger</button>
+      <button class="tab-btn" data-panel="m-pizzwich">Pizzwich</button>
+      <button class="tab-btn" data-panel="m-tacos">Tacos</button>
+      <button class="tab-btn" data-panel="m-poutine">Poutine</button>
+      <button class="tab-btn" data-panel="m-cafe">Café</button>
+      <button class="tab-btn" data-panel="m-the">Thé</button>
+      <button class="tab-btn" data-panel="m-boissons">Boissons</button>
+      <button class="tab-btn" data-panel="m-jus">Jus Pressés</button>
+      <button class="tab-btn" data-panel="m-milkshake">Milkshake</button>
+      <button class="tab-btn" data-panel="m-gateaux">Gâteaux &amp; Sweets</button>
+      <button class="tab-btn" data-panel="m-crepes">Crêpes / Gaufres</button>
+      <button class="tab-btn" data-panel="m-churros">Churros</button>
+    </div>
+    <div class="menu-modal-body">
+      <div class="panel active" id="m-pizza-blanche">
+        <div class="menu-table-row head"><span>Item</span><span>L</span><span>XL</span></div>
+        <div class="menu-table-row"><strong>Margueritte</strong><span>600</span><span>900</span></div>
+        <div class="menu-table-row"><strong>Fungo</strong><span>700</span><span>1400</span></div>
+        <div class="menu-table-row"><strong>Indienne</strong><span>750</span><span>1300</span></div>
+        <div class="menu-table-row"><strong>Campione</strong><span>800</span><span>1400</span></div>
+        <div class="menu-table-row"><strong>Pollo Croccante</strong><span>800</span><span>1300</span></div>
+        <div class="menu-table-row"><strong>Atlantica</strong><span>850</span><span>1500</span></div>
+        <div class="menu-table-row"><strong>Peperoni</strong><span>800</span><span>1400</span></div>
+        <div class="menu-table-row"><strong>Quattro Fromaggio</strong><span>850</span><span>1400</span></div>
+        <div class="menu-table-row"><strong>Mergez</strong><span>850</span><span>1400</span></div>
+        <div class="menu-table-row"><strong>Crevette</strong><span>1000</span><span>1700</span></div>
+      </div>
+
+      <div class="panel" id="m-pizza-rouge">
+        <div class="menu-table-row head"><span>Item</span><span>L</span><span>XL</span></div>
+        <div class="menu-table-row"><strong>Margueritte</strong><span>500</span><span>800</span></div>
+        <div class="menu-table-row"><strong>Campione</strong><span>700</span><span>1300</span></div>
+        <div class="menu-table-row"><strong>Indienne</strong><span>650</span><span>1200</span></div>
+        <div class="menu-table-row"><strong>Mediterranea</strong><span>700</span><span>1200</span></div>
+        <div class="menu-table-row"><strong>Vegg</strong><span>600</span><span>1000</span></div>
+        <div class="menu-table-row"><strong>Fungo</strong><span>750</span><span>1300</span></div>
+        <div class="menu-table-row"><strong>Pollo Croccante</strong><span>700</span><span>1200</span></div>
+        <div class="menu-table-row"><strong>Napoli</strong><span>750</span><span>1300</span></div>
+        <div class="menu-table-row"><strong>Atlantica</strong><span>750</span><span>1400</span></div>
+        <div class="menu-table-row"><strong>Peperoni</strong><span>700</span><span>1300</span></div>
+        <div class="menu-table-row"><strong>Quattro Fromaggio</strong><span>700</span><span>1300</span></div>
+        <div class="menu-table-row"><strong>Crevette</strong><span>900</span><span>1600</span></div>
+      </div>
+
+      <div class="panel" id="m-burger">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Black Supreme</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Black Hot</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Black Must</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Black Pepper</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Black Fish</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Black Chicken</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Black Onions</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Crispy Burger</span><strong>500 DA</strong></div>
+          <div class="price-row"><span>Beef Burger XL</span><strong>600 DA</strong></div>
+          <div class="price-row"><span>Beef Burger XXL</span><strong>1000 DA</strong></div>
+          <div class="price-row"><span>Oriental Burger</span><strong>600 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-pizzwich">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Meat</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Chicken</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Mixte</span><strong>550 DA</strong></div>
+          <div class="price-row"><span>Merguez</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Kebda</span><strong>550 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-tacos">
+        <div class="menu-table-row3 head"><span>Item</span><span>M</span><span>L</span><span>XL</span></div>
+        <div class="menu-table-row3"><strong>Viande</strong><span>550</span><span>750</span><span>950</span></div>
+        <div class="menu-table-row3"><strong>Chicken</strong><span>500</span><span>700</span><span>900</span></div>
+        <div class="menu-table-row3"><strong>Mixte</strong><span>650</span><span>750</span><span>950</span></div>
+        <div class="menu-table-row3"><strong>Merguez</strong><span>550</span><span>750</span><span>950</span></div>
+        <div class="menu-table-row3"><strong>Kebda</strong><span>650</span><span>850</span><span>1100</span></div>
+        <div class="price-list">
+          <div class="price-row"><span>Gratiné (add-on)</span><strong>+150 DA</strong></div>
+          <div class="price-row"><span>Crispy (add-on)</span><strong>+150 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-poutine">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Viande</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Chicken</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Mixte</span><strong>550 DA</strong></div>
+          <div class="price-row"><span>3 Fromage</span><strong>550 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-cafe">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Presse</span><strong>100 DA</strong></div>
+          <div class="price-row"><span>Caps</span><strong>200 DA</strong></div>
+          <div class="price-row"><span>Expresso</span><strong>250 DA</strong></div>
+          <div class="price-row"><span>Café au lait</span><strong>150 DA</strong></div>
+          <div class="price-row"><span>Lattée / Machiatto</span><strong>300 DA</strong></div>
+          <div class="price-row"><span>Lait au Chocolat</span><strong>150 DA</strong></div>
+          <div class="price-row"><span>Lait Nesquik</span><strong>250 DA</strong></div>
+          <div class="price-row"><span>Cappuccino</span><strong>300 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-the">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Thé Maison</span><strong>100 DA</strong></div>
+          <div class="price-row"><span>Thé Lipton</span><strong>150 DA</strong></div>
+          <div class="price-row"><span>Tisane / Verveine</span><strong>80 DA</strong></div>
+          <div class="price-row"><span>Zendjibel / Bessbess</span><strong>80 DA</strong></div>
+          <div class="price-row"><span>Citron / Caramel / F-Exotic</span><strong>150 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-boissons">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Canette normal (Coca...)</span><strong>150 DA</strong></div>
+          <div class="price-row"><span>Boissons 1L</span><strong>150 DA</strong></div>
+          <div class="price-row"><span>Azro</span><strong>120 DA</strong></div>
+          <div class="price-row"><span>Bouteille PM</span><strong>150 DA</strong></div>
+          <div class="price-row"><span>Vichy</span><strong>70 DA</strong></div>
+          <div class="price-row"><span>Ifruit</span><strong>100 DA</strong></div>
+          <div class="price-row"><span>Tazedj</span><strong>150 DA</strong></div>
+          <div class="price-row"><span>Redbull</span><strong>700 DA</strong></div>
+          <div class="price-row"><span>Rouiba</span><strong>50 DA</strong></div>
+          <div class="price-row"><span>TNT</span><strong>120 DA</strong></div>
+          <div class="price-row"><span>Pitbull</span><strong>200 DA</strong></div>
+          <div class="price-row"><span>Izem</span><strong>150 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-jus">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Banane</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Orange</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Nectarine (Pêches)</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Citron</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Fraise</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Cocktail</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Ananas</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Grenadine</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Mojito</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Louda / Choix (add-on)</span><strong>+100 DA</strong></div>
+          <div class="price-row"><span>Fruit Saison (Pomme / Poire...)</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Hawai</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Maldive</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Coconut</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Blue Curacao</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Piña Colada</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Blackhouse</span><strong>600 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-milkshake">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Chocolat</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Nutella</span><strong>550 DA</strong></div>
+          <div class="price-row"><span>Bueno</span><strong>550 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-gateaux">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Croissant / Petit Pain</span><strong>100 DA</strong></div>
+          <div class="price-row"><span>Tiramisu</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Brownies</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Cheesecake</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Tarte (Citron / Pomme / Fraise...)</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Fondant Chocolat</span><strong>300 DA</strong></div>
+          <div class="price-row"><span>Saintsebastien</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Cookies / Macarons</span><strong>150 DA</strong></div>
+          <div class="price-row"><span>Donuts</span><strong>200 DA</strong></div>
+          <div class="price-row"><span>Newyork Rolls</span><strong>300 DA</strong></div>
+          <div class="price-row"><span>Supplement Nutella</span><strong>+100 DA</strong></div>
+          <div class="price-row"><span>Supplement Mordjen</span><strong>+50 DA</strong></div>
+          <div class="price-row"><span>Supplement Confiture</span><strong>+50 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-crepes">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Chocolat</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Banane Chocolat</span><strong>450 DA</strong></div>
+          <div class="price-row"><span>Nutella</span><strong>550 DA</strong></div>
+          <div class="price-row"><span>Blackhouse</span><strong>600 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="m-churros">
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Sucre</span><strong>250 DA</strong></div>
+          <div class="price-row"><span>Chocolat</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Chocolat blanc</span><strong>350 DA</strong></div>
+          <div class="price-row"><span>Nutella</span><strong>450 DA</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 03 LE BARATIER -->
+  <section class="section-pad" id="le-baratier">
+    <div class="wrap">
+      <div class="baratier-wrap">
+        <div class="baratier-media reveal"><div class="ph ph-baratier"></div></div>
+        <div class="baratier-copy reveal d1">
+          <div class="detail-num"><svg data-lucide="utensils" width="16" height="16"></svg> 03 / LE BARATIER</div>
+          <h2>Le Baratier</h2>
+          <div class="tag">Restaurant</div>
+          <p style="color:var(--muted); margin-top:16px; max-width:440px; font-size:0.95rem;">A restaurant experience at Iron Park with a wide selection of hot and cold starters, Turkish and French dishes, American grill, seafood, pasta, gratin, and savory crêpes.</p>
+          <div class="info-icons">
+            <div class="info-icon-item"><svg data-lucide="clock" width="18" height="18"></svg> <span><strong>Hours</strong><br>12:00–00:00</span></div>
+          </div>
+          <div class="detail-actions">
+            <button type="button" id="openBaratierMenuBtn" class="btn-small"><svg data-lucide="book-open" width="16" height="16"></svg> View Full Menu</button>
+            <button type="button" class="open-now-btn" data-open-schedule="12:00-24:00" aria-live="polite">Open Now</button>
+          </div>
+          <button type="button" class="delivery-inline-btn delivery-trigger"><svg data-lucide="shopping-bag" width="16" height="16"></svg> Delivery</button>
+          <button type="button" class="utility-btn gallery-trigger" data-gallery="le-baratier"><svg data-lucide="images" width="16" height="16"></svg> Gallery</button>
+          <a href="#experiences" class="back-link"><svg data-lucide="arrow-up" width="13" height="13"></svg> Back to Experiences</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- LE BARATIER — FULL MENU MODAL -->
+  <div class="menu-modal" id="baratierMenuModal" role="dialog" aria-modal="true" aria-label="Le Baratier full menu">
+    <div class="menu-modal-head">
+      <h3>Le Baratier — Full Menu</h3>
+      <button type="button" class="menu-modal-close" id="closeBaratierMenuBtn" aria-label="Close menu"><svg data-lucide="x" width="18" height="18"></svg></button>
+    </div>
+    <div class="menu-modal-tabs tab-row" id="baratierMenuTabs">
+      <button class="tab-btn active" data-panel="b-starters">Entrée Chaude / Froide</button>
+      <button class="tab-btn" data-panel="b-turkish">Turkish Plat</button>
+      <button class="tab-btn" data-panel="b-french-grill">French Plat &amp; American Grill</button>
+      <button class="tab-btn" data-panel="b-seafood-pasta">Poisson, Pasta, Gratin &amp; Crêpes</button>
+    </div>
+    <div class="menu-modal-body">
+      <div class="panel active" id="b-starters">
+        <div class="menu-sub-title">1. Entrée Chaude / Froide</div>
+        <div class="menu-sub-title">Soupes</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Soupe de Légumes</span><strong>300 DA</strong></div>
+          <div class="price-row"><span>Soupe de Lentilles</span><strong>300 DA</strong></div>
+          <div class="price-row"><span>Soupe de Poisson</span><strong>500 DA</strong></div>
+        </div>
+        <div class="menu-sub-title">Entrée Froide et Salade</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Houmous Bilahme</span><strong>550 DA</strong></div>
+          <div class="price-row"><span>Hmiss</span><strong>200 DA</strong></div>
+          <div class="price-row"><span>Mixte d'Accompagnement</span><strong>300 DA</strong></div>
+          <div class="price-row"><span>Salade Verte</span><strong>300 DA</strong></div>
+          <div class="price-row"><span>Salade César</span><strong>600 DA</strong></div>
+          <div class="price-row"><span>Macédoine</span><strong>400 DA</strong></div>
+        </div>
+        <div class="menu-sub-title">Entrée Chaude</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Omelette 3 Fromage</span><strong>500 DA</strong></div>
+          <div class="price-row"><span>Omelette Champignons</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Omelette Crevette</span><strong>600 DA</strong></div>
+          <div class="price-row"><span>Omelette au Thon</span><strong>400 DA</strong></div>
+          <div class="price-row"><span>Camembert Flambé au Miel</span><strong>500 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="b-turkish">
+        <div class="menu-sub-title">2. Turkish Plat</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Filet de Poulet</span><strong>900 DA</strong></div>
+          <div class="price-row"><span>Nazik Lahm</span><strong>1200 DA</strong></div>
+          <div class="price-row"><span>Nazik Dajaj</span><strong>1000 DA</strong></div>
+          <div class="price-row"><span>Iskender</span><strong>---- DA</strong></div>
+          <div class="price-row"><span>Tikka Masala</span><strong>1300 DA</strong></div>
+          <div class="price-row"><span>Kofta Jobne</span><strong>1500 DA</strong></div>
+          <div class="price-row"><span>Beyti Kebab</span><strong>1500 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="b-french-grill">
+        <div class="menu-sub-title">3. French Plat</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Roti de Bœuf à l'Ancienne</span><strong>1600 DA</strong></div>
+          <div class="price-row"><span>Émincée de Poulet Crémeuse aux 3 Fromages</span><strong>1200 DA</strong></div>
+          <div class="price-row"><span>Entrecôte Maître d'Hôtel</span><strong>1900 DA</strong></div>
+          <div class="price-row"><span>Sauté de Bœuf aux Champignons</span><strong>1400 DA</strong></div>
+          <div class="price-row"><span>Entrecôte Forestière</span><strong>1900 DA</strong></div>
+          <div class="price-row"><span>Suprême de Poulet aux Champignons</span><strong>1200 DA</strong></div>
+          <div class="price-row"><span>Poêlée de Volaille</span><strong>1200 DA</strong></div>
+          <div class="price-row"><span>Surprise du Chef</span><strong>1500 DA</strong></div>
+        </div>
+        <div class="menu-sub-title">American Grill</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>New York Steak</span><strong>1900 DA</strong></div>
+          <div class="price-row"><span>Dallas Steak</span><strong>2900 DA</strong></div>
+          <div class="price-row"><span>Buffalo Filet</span><strong>1900 DA</strong></div>
+        </div>
+      </div>
+
+      <div class="panel" id="b-seafood-pasta">
+        <div class="menu-sub-title">4. Baratier Poisson</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Calamar (Grillé / Farci / Sauté)</span><strong>---- DA</strong></div>
+          <div class="price-row"><span>Sépia (En Sauce)</span><strong>---- DA</strong></div>
+          <div class="price-row"><span>Crevette Royale (En Sauce / Grillé / Sauté)</span><strong>---- DA</strong></div>
+          <div class="price-row"><span>Dorade (Grillé)</span><strong>---- DA</strong></div>
+          <div class="price-row"><span>Paella Par Personne</span><strong>2500 DA</strong></div>
+          <div class="price-row"><span>Fish and Chips Poisson Crispée</span><strong>1500 DA</strong></div>
+        </div>
+        <div class="menu-sub-title">Pasta Italian</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Bolognaise</span><strong>1000 DA</strong></div>
+          <div class="price-row"><span>Poulet</span><strong>800 DA</strong></div>
+          <div class="price-row"><span>Poulet Champignons</span><strong>900 DA</strong></div>
+          <div class="price-row"><span>Crevette</span><strong>1500 DA</strong></div>
+          <div class="price-row"><span>Tagliatelle Carbonara</span><strong>1100 DA</strong></div>
+        </div>
+        <div class="menu-sub-title">Gratin</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Champignons</span><strong>500 DA</strong></div>
+          <div class="price-row"><span>Poulet</span><strong>600 DA</strong></div>
+          <div class="price-row"><span>Viande</span><strong>650 DA</strong></div>
+          <div class="price-row"><span>Mixte (Viande - Poulet - Champignons)</span><strong>750 DA</strong></div>
+          <div class="price-row"><span>Crevette</span><strong>800 DA</strong></div>
+        </div>
+        <div class="menu-sub-title">Les Crêpes Salées</div>
+        <div class="price-list" style="margin-top:0;">
+          <div class="price-row"><span>Poulet</span><strong>600 DA</strong></div>
+          <div class="price-row"><span>Champignons</span><strong>600 DA</strong></div>
+          <div class="price-row"><span>Fromage</span><strong>500 DA</strong></div>
+          <div class="price-row"><span>Mixte (Fromage - Poulet - Champignons)</span><strong>800 DA</strong></div>
+          <div class="price-row"><span>Crevette</span><strong>800 DA</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 04 IRON GYM -->
+  <section class="section-pad" id="iron-gym">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="gym-banner">
+          <div class="ph ph-gym"></div>
+          <div class="gym-banner-copy">
+            <div class="detail-num"><svg data-lucide="dumbbell" width="16" height="16"></svg> 04 / IRON GYM</div>
+            <h2>Iron Gym</h2>
+            <div class="tag">Train &amp; Get Stronger</div>
+          </div>
+        </div>
+        <div class="gym-stats">
+          <div class="gym-stat"><svg data-lucide="clock" width="18" height="18"></svg><div class="label">Hours</div><div class="value">7/7 — 06:00–00:00</div></div>
+          <div class="gym-stat"><svg data-lucide="phone" width="18" height="18"></svg><div class="label">Contact</div><div class="value">05 60 18 45 26</div></div>
+          <div class="gym-stat"><svg data-lucide="dumbbell" width="18" height="18"></svg><div class="label">Facilities</div><div class="value">Strength, Cardio, Boxing</div></div>
+          <div class="gym-stat"><svg data-lucide="users" width="18" height="18"></svg><div class="label">Programs</div><div class="value">Men &amp; Women</div></div>
+        </div>
+
+        <div class="gym-membership">
+          <h3>Membership Plans</h3>
+          <div class="tab-row" id="genderTabs">
+            <button class="tab-btn active" data-panel="g-men">Men</button>
+            <button class="tab-btn" data-panel="g-women">Women</button>
+          </div>
+
+          <div class="panel active" id="g-men">
+            <div class="member-table-wrap">
+              <table class="member-table">
+                <thead><tr><th>Duration</th><th>4 Sessions</th><th>8 Sessions</th><th>12 Sessions</th></tr></thead>
+                <tbody>
+                  <tr><td>1 Month</td><td>1900</td><td>2900</td><td>3500</td></tr>
+                  <tr><td>3 Months</td><td>—</td><td>2900</td><td>3400</td></tr>
+                  <tr><td>6 Months</td><td>—</td><td>—</td><td>3000</td></tr>
+                  <tr><td>12 Months</td><td>—</td><td>—</td><td>2500</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel" id="g-women">
+            <div class="member-table-wrap">
+              <table class="member-table">
+                <thead><tr><th>Duration</th><th>4 Sessions</th><th>8 Sessions</th><th>12 Sessions</th></tr></thead>
+                <tbody>
+                  <tr><td>1 Month</td><td>1500</td><td>2400</td><td>2900</td></tr>
+                  <tr><td>3 Months</td><td>—</td><td>—</td><td>2700</td></tr>
+                  <tr><td>6 Months</td><td>—</td><td>—</td><td>2400</td></tr>
+                  <tr><td>12 Months</td><td>—</td><td>—</td><td>2100</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="note-line"><svg data-lucide="info" width="15" height="15"></svg> "—" means that package isn't offered for that duration.</div>
+        </div>
+
+        <div class="detail-actions gym-actions">
+          <a href="https://wa.me/213560184526" class="btn-small" target="_blank" rel="noopener"><svg data-lucide="message-circle" width="16" height="16"></svg> WhatsApp</a>
+          <a href="tel:+213560184526" class="btn-small alt"><svg data-lucide="phone" width="16" height="16"></svg> Call Now</a>
+          <button type="button" class="open-now-btn" data-open-schedule="06:00-24:00" aria-live="polite">Open Now</button>
+        </div>
+        <button type="button" class="utility-btn gallery-trigger" data-gallery="iron-gym"><svg data-lucide="images" width="16" height="16"></svg> Gallery</button>
+          <a href="#experiences" class="back-link"><svg data-lucide="arrow-up" width="13" height="13"></svg> Back to Experiences</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- 05 IRON POOL -->
+  <section class="section-pad" id="iron-pool">
+    <div class="wrap">
+      <div class="pool-wrap reveal">
+        <div class="ph ph-pool"></div>
+        <div class="pool-bignum">04</div>
+        <div class="pool-copy">
+          <div class="detail-num"><svg data-lucide="circle-dot" width="16" height="16"></svg> 05 / IRON POOL</div>
+          <h2>Iron Pool</h2>
+          <div class="tag">Relax &amp; Compete</div>
+          <div class="info-icons">
+            <div class="info-icon-item"><svg data-lucide="clock" width="18" height="18"></svg> <span><strong>Hours</strong><br>15:00–00:00</span></div>
+            <div class="info-icon-item"><svg data-lucide="phone" width="18" height="18"></svg> <span><strong>Contact</strong><br>07 91 97 48 42</span></div>
+          </div>
+          <div class="note-line"><svg data-lucide="info" width="15" height="15"></svg> Contact us for current pricing</div>
+          <div class="detail-actions">
+            <a href="https://wa.me/213791974842" class="btn-small" target="_blank" rel="noopener"><svg data-lucide="message-circle" width="16" height="16"></svg> WhatsApp</a>
+            <a href="tel:+213791974842" class="btn-small alt"><svg data-lucide="phone" width="16" height="16"></svg> Call Now</a>
+            <button type="button" class="open-now-btn" data-open-schedule="15:00-24:00" aria-live="polite">Open Now</button>
+          </div>
+          <button type="button" class="utility-btn gallery-trigger" data-gallery="iron-pool"><svg data-lucide="images" width="16" height="16"></svg> Gallery</button>
+          <a href="#experiences" class="back-link"><svg data-lucide="arrow-up" width="13" height="13"></svg> Back to Experiences</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- 06 CRÉNEAUX -->
+  <section class="section-pad" id="creneaux">
+    <div class="wrap">
+      <div class="field-banner reveal">
+        <div class="ph ph-field"></div>
+        <div class="field-copy">
+          <div class="detail-num"><svg data-lucide="goal" width="16" height="16"></svg> 06 / CRÉNEAUX</div>
+          <h2>Book Your Field</h2>
+          <div class="info-icons">
+            <div class="info-icon-item"><svg data-lucide="phone" width="18" height="18"></svg> <span><strong>Contact</strong><br>05 50 66 71 16</span></div>
+          </div>
+          <div class="price-list">
+            <div class="price-row"><span>Field booking</span><strong>500 DA</strong></div>
+          </div>
+          <div class="detail-actions">
+            <a href="https://wa.me/213550667116" class="btn-small" target="_blank" rel="noopener"><svg data-lucide="message-circle" width="16" height="16"></svg> Book via WhatsApp</a>
+            <a href="tel:+213550667116" class="btn-small alt"><svg data-lucide="phone" width="16" height="16"></svg> Call Now</a>
+          </div>
+          <button type="button" class="utility-btn gallery-trigger" data-gallery="creneaux"><svg data-lucide="images" width="16" height="16"></svg> Gallery</button>
+          <a href="#experiences" class="back-link"><svg data-lucide="arrow-up" width="13" height="13"></svg> Back to Experiences</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="divider"></div></div>
+
+  <!-- 07 SHOWS -->
+  <section class="section-pad" id="shows">
+    <div class="wrap">
+      <div class="shows-banner reveal">
+        <div class="ph ph-shows"></div>
+        <div class="shows-copy">
+          <div class="detail-num"><svg data-lucide="sparkles" width="16" height="16"></svg> 07 / SHOWS</div>
+          <h2>Shows</h2>
+          <div class="tag">Live Shows &amp; Entertainment</div>
+          <div class="note-line"><svg data-lucide="info" width="15" height="15"></svg> Upcoming show details, dates, and booking info will be added here soon.</div>
+          <div class="detail-actions">
+            <a href="https://instagram.com/ironparkdz" class="btn-small" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg> Follow for Updates</a>
+          </div>
+          <button type="button" class="utility-btn gallery-trigger" data-gallery="shows"><svg data-lucide="images" width="16" height="16"></svg> Gallery</button>
+          <a href="#experiences" class="back-link"><svg data-lucide="arrow-up" width="13" height="13"></svg> Back to Experiences</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 08 CAR WASH -->
+  <div class="wrap"><div class="divider"></div></div>
+
+  <section class="section-pad" id="car-wash">
+    <div class="wrap">
+      <div class="carwash-banner reveal">
+        <div class="ph ph-carwash"></div>
+        <div class="carwash-copy">
+          <div class="detail-num"><svg data-lucide="car" width="16" height="16"></svg> 08 / CAR WASH</div>
+          <h2>Car Wash</h2>
+          <div class="tag">Available at Iron Park</div>
+          <p style="color:var(--muted); margin-top:16px; max-width:440px; font-size:0.9rem;">Available at Iron Park.</p>
+          <button type="button" class="utility-btn gallery-trigger" data-gallery="car-wash"><svg data-lucide="images" width="16" height="16"></svg> Gallery</button>
+          <a href="#experiences" class="back-link"><svg data-lucide="arrow-up" width="13" height="13"></svg> Back to Experiences</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- DELIVERY CART -->
+  <div class="overlay-modal" id="cartModal" role="dialog" aria-modal="true" aria-label="Delivery cart">
+    <div class="overlay-card">
+      <div class="overlay-head"><h3>Delivery Order</h3><button class="overlay-close" data-close="cartModal"><svg data-lucide="x"></svg></button></div>
+      <div class="delivery-picker">
+        <label for="deliveryItemSearch">Items</label>
+        <div class="delivery-search-wrap">
+          <input id="deliveryItemSearch" class="delivery-search" type="search" autocomplete="off" placeholder="Start typing a dish..." aria-label="Search menu items">
+          <div id="deliverySuggestions" class="delivery-suggestions" role="listbox" aria-label="Menu suggestions"></div>
+        </div>
+      </div>
+      <div class="cart-list" id="cartList"><p style="color:var(--muted);">Start typing to choose an item from the menus, or call 05 60 99 09 62.</p></div>
+      <div class="cart-summary">
+        <div class="cart-total"><span>Total</span><span id="cartTotal">0 DA</span></div>
+        <input id="customerName" type="text" placeholder="Name">
+        <input id="customerAddress" type="text" placeholder="Delivery address">
+        <textarea id="customerNote" placeholder="Note (optional)"></textarea>
+        <button type="button" class="btn-primary" id="sendOrderBtn"><svg data-lucide="message-circle" width="16" height="16"></svg> Send on WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="overlay-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image gallery">
+    <div class="overlay-card">
+      <div class="overlay-head"><h3 id="lightboxTitle">Gallery</h3><button class="overlay-close" data-close="lightboxModal"><svg data-lucide="x"></svg></button></div>
+      <div class="lightbox-stage"><img id="lightboxImg" src="" alt="" loading="lazy"><div class="lightbox-nav"><button id="prevImg" type="button">‹</button><button id="nextImg" type="button">›</button></div></div>
+    </div>
+  </div>
+
+  <!-- QR -->
+  <div class="overlay-modal" id="qrModal" role="dialog" aria-modal="true" aria-label="Iron Park website QR code">
+    <div class="overlay-card"><div class="overlay-head"><h3>Iron Park Website</h3><button class="overlay-close" data-close="qrModal"><svg data-lucide="x"></svg></button></div><div class="qr-body"><div id="qrCode"></div><p>Scan this QR code to open the Iron Park website.</p><button type="button" class="utility-btn" id="printQrBtn">Print QR</button></div></div>
+  </div>
+
+  <!-- SHARE OPTIONS -->
+  <div class="overlay-modal" id="shareModal" role="dialog" aria-modal="true" aria-label="Share Iron Park">
+    <div class="overlay-card share-card">
+      <div class="overlay-head"><h3>Share Iron Park</h3><button class="overlay-close" data-close="shareModal"><svg data-lucide="x"></svg></button></div>
+      <div class="share-options">
+        <button type="button" class="share-option" id="shareQrOption"><svg data-lucide="qr-code" width="20" height="20"></svg><span>Scan QR Code</span></button>
+        <button type="button" class="share-option" id="shareLinkOption"><svg data-lucide="link" width="20" height="20"></svg><span>Copy Website Link</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RULES -->
+  <div class="overlay-modal" id="rulesModal" role="dialog" aria-modal="true" aria-label="Iron Park rules">
+    <div class="overlay-card"><div class="overlay-head"><h3>Iron Park Rules</h3><button class="overlay-close" data-close="rulesModal"><svg data-lucide="x"></svg></button></div><div class="rules-body"><div class="rules-list">
+      <div>Respect other visitors, staff, and all Iron Park facilities.</div>
+      <div>Follow staff instructions and the safety rules of each activity.</div>
+      <div>Use games and equipment only for their intended purpose.</div>
+      <div>No dangerous, aggressive, or reckless behavior.</div>
+      <div>Keep your area clean and place waste in the appropriate bins.</div>
+      <div>Children should be supervised by a responsible adult when required.</div>
+    </div></div></div>
+  </div>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta reveal">
+    <div class="eyebrow" style="justify-content:center; display:flex;">Ready When You Are</div>
+    <h2>Come experience Iron Park for yourself</h2>
+    <p>Games, food, training, sport, and shows — all in one place in Beni Tamou.</p>
+    <div class="hero-actions">
+      <a href="https://wa.me/213553443284" class="btn-primary" target="_blank" rel="noopener"><svg data-lucide="message-circle" width="16" height="16"></svg> WhatsApp Iron Park</a>
+      <a href="https://maps.app.goo.gl/hhMeZKqWgaTwajFD8" class="btn-ghost" target="_blank" rel="noopener"><svg data-lucide="map-pin" width="16" height="16"></svg> Get Directions</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Iron Park</h4>
+        <p>Your destination for fun, delicious food, and fitness — Beni Tamou, Blida, Algeria.</p>
+        <div class="social-row">
+          <a href="https://instagram.com/ironparkdz" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Experiences</h4>
+        <a href="#iron-land">Iron Land</a>
+        <a href="#black-house">Black House</a>
+        <a href="#le-baratier">Le Baratier</a>
+        <a href="#iron-gym">Iron Gym</a>
+        <a href="#iron-pool">Iron Pool</a>
+        <a href="#creneaux">Créneaux</a>
+        <a href="#shows">Shows</a>
+        <a href="#car-wash">Car Wash</a>
+      </div>
+      <div>
+        <h4>Contact by Service</h4>
+        <a href="tel:+213553443284">Iron Land — 05 53 44 32 84</a>
+        <a href="tel:+213560184526">Iron Gym — 05 60 18 45 26</a>
+        <a href="tel:+213791974842">Iron Pool — 07 91 97 48 42</a>
+        <a href="tel:+213550667116">Créneaux — 05 50 66 71 16</a>
+        <a href="tel:+213560990962">Livraison — 05 60 99 09 62</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Iron Park. All rights reserved.</span>
+      <span>Beni Tamou, Blida, Algeria</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const burger = document.getElementById('burgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', isOpen);
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => { mobileMenu.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); });
+  });
+
+  const header = document.getElementById('site-header');
+  const updateHeader = () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  };
+  window.addEventListener('scroll', updateHeader, {passive:true});
+  updateHeader();
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0, rootMargin: '0px 0px -60px 0px' });
+  revealEls.forEach(el => io.observe(el));
+
+  // Light / Dark mode
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('ironParkTheme');
+  if (savedTheme === 'light') document.body.classList.add('light-mode');
+  function updateThemeToggle(){
+    if (!themeToggle) return;
+    const isLight = document.body.classList.contains('light-mode');
+    themeToggle.innerHTML = isLight
+      ? '<svg data-lucide="sun" width="16" height="16"></svg><span>Light Mode</span>'
+      : '<svg data-lucide="moon" width="16" height="16"></svg><span>Dark Mode</span>';
+    themeToggle.setAttribute('aria-label', isLight ? 'Light Mode' : 'Dark Mode');
+    themeToggle.setAttribute('title', isLight ? 'Light Mode' : 'Dark Mode');
+    if (window.lucide) lucide.createIcons();
+  }
+  updateThemeToggle();
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('light-mode');
+      localStorage.setItem('ironParkTheme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+      updateThemeToggle();
+    });
+  }
+
+  // Black House image stack — click either photo to bring it to the front
+  const houseMedia = document.querySelector('.house-media');
+  if (houseMedia) {
+    const houseImages = houseMedia.querySelectorAll('.img-a, .img-b');
+    houseImages.forEach(img => {
+      img.setAttribute('role', 'button');
+      img.setAttribute('tabindex', '0');
+      img.addEventListener('click', () => houseMedia.classList.toggle('swap'));
+      img.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          houseMedia.classList.toggle('swap');
+        }
+      });
+    });
+  }
+
+  // Black House full menu modal
+  const openMenuBtn = document.getElementById('openMenuBtn');
+  const closeMenuBtn = document.getElementById('closeMenuBtn');
+  const menuModal = document.getElementById('menuModal');
+  if (openMenuBtn && menuModal) {
+    openMenuBtn.addEventListener('click', () => {
+      menuModal.classList.add('open');
+      document.body.classList.add('menu-open');
+    });
+  }
+  if (closeMenuBtn && menuModal) {
+    closeMenuBtn.addEventListener('click', () => {
+      menuModal.classList.remove('open');
+      document.body.classList.remove('menu-open');
+    });
+  }
+
+  // Le Baratier full menu modal
+  const openBaratierMenuBtn = document.getElementById('openBaratierMenuBtn');
+  const closeBaratierMenuBtn = document.getElementById('closeBaratierMenuBtn');
+  const baratierMenuModal = document.getElementById('baratierMenuModal');
+  if (openBaratierMenuBtn && baratierMenuModal) {
+    openBaratierMenuBtn.addEventListener('click', () => {
+      baratierMenuModal.classList.add('open');
+      document.body.classList.add('menu-open');
+    });
+  }
+  if (closeBaratierMenuBtn && baratierMenuModal) {
+    closeBaratierMenuBtn.addEventListener('click', () => {
+      baratierMenuModal.classList.remove('open');
+      document.body.classList.remove('menu-open');
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.menu-modal.open').forEach(modal => modal.classList.remove('open'));
+      document.body.classList.remove('menu-open');
+    }
+  });
+
+
+  // Opening status — text status beside Hours + functional Open Now buttons
+  function parseSchedule(schedule){
+    const [a,b]=schedule.split('-');
+    const [ah,am]=a.split(':').map(Number); const [bh,bm]=b.split(':').map(Number);
+    return {open:ah*60+am, close:bh*60+bm};
+  }
+  function scheduleIsOpen(schedule){
+    const now=new Date(); const mins=now.getHours()*60+now.getMinutes();
+    const {open,close}=parseSchedule(schedule);
+    return close===24 ? mins>=open : (mins>=open && mins<close);
+  }
+  function updateOpeningStatus(){
+    document.querySelectorAll('.open-now-btn[data-open-schedule]').forEach(btn=>{
+      const isOpen=scheduleIsOpen(btn.dataset.openSchedule);
+      btn.textContent=isOpen?'Open Now':'Closed';
+      btn.classList.toggle('is-closed',!isOpen);
+      btn.setAttribute('aria-label',isOpen?'Open Now':'Closed');
+    });
+  }
+  updateOpeningStatus(); setInterval(updateOpeningStatus,60000);
+
+  // Mobile menu: language / rules / share
+  document.querySelectorAll('.menu-group-btn').forEach(btn=>btn.addEventListener('click',()=>{
+    if(btn.id==='menuShareBtn'){
+      document.getElementById('shareModal').classList.add('open');
+      return;
+    }
+    const sub=btn.nextElementSibling;
+    if(!sub)return;
+    sub.classList.toggle('open');
+    const s=btn.querySelector('span');
+    if(s)s.textContent=sub.classList.contains('open')?'−':'+';
+  }));
+
+  // Full-page language translation via Google Website Translator
+  let pendingLanguage=null;
+  window.googleTranslateElementInit=function(){
+    new google.translate.TranslateElement({pageLanguage:'en',includedLanguages:'en,fr,ar',autoDisplay:false,multilanguagePage:true},'google_translate_element');
+    if(pendingLanguage) setSiteLanguage(pendingLanguage);
+  };
+  function setSiteLanguage(lang){
+    pendingLanguage=lang;
+    const select=document.querySelector('.goog-te-combo');
+    if(!select)return;
+    select.value=lang;
+    select.dispatchEvent(new Event('change'));
+  }
+  document.querySelectorAll('[data-lang]').forEach(btn=>btn.addEventListener('click',()=>setSiteLanguage(btn.dataset.lang)));
+  if(!document.getElementById('google-translate-script')){
+    const gt=document.createElement('script');
+    gt.id='google-translate-script';
+    gt.src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    document.body.appendChild(gt);
+  }
+  const rulesBtn=document.getElementById('rulesBtn');
+  if(rulesBtn) rulesBtn.addEventListener('click',()=>document.getElementById('rulesModal').classList.add('open'));
+
+  // Share menu: exactly two choices — QR code or website link
+  const shareModal=document.getElementById('shareModal');
+  const shareQrOption=document.getElementById('shareQrOption');
+  const shareLinkOption=document.getElementById('shareLinkOption');
+  const qrModal=document.getElementById('qrModal');
+  const qrCode=document.getElementById('qrCode');
+  if(shareQrOption) shareQrOption.addEventListener('click',()=>{
+    shareModal.classList.remove('open');
+    qrModal.classList.add('open');
+    qrCode.innerHTML='';
+    if(window.QRCode) new QRCode(qrCode,{text:location.href,width:220,height:220});
+  });
+  if(shareLinkOption) shareLinkOption.addEventListener('click',async()=>{
+    try{
+      await navigator.clipboard.writeText(location.href);
+      alert('Website link copied.');
+    }catch(e){
+      prompt('Copy this website link:',location.href);
+    }
+  });
+  const printQrBtn=document.getElementById('printQrBtn');
+  if(printQrBtn) printQrBtn.addEventListener('click',()=>{
+    const w=window.open('','_blank');
+    if(!w)return;
+    w.document.write('<html><body style="display:grid;place-items:center;height:100vh;margin:0"><img src="'+qrCode.querySelector('img')?.src+'" onload="window.print()"></body></html>');
+    w.document.close();
+  });
+
+  // Mobile experience navigation: show 2 experiences first, then reveal all 8.
+  // The same button becomes View Less so the user can return to the compact view.
+  const pillMoreBtn = document.getElementById('pillMoreBtn');
+  const pillNav = document.querySelector('.pill-nav');
+  const pillMoreText = document.getElementById('pillMoreText');
+  const pillMoreIcon = document.getElementById('pillMoreIcon');
+  if (pillMoreBtn && pillNav) {
+    pillMoreBtn.addEventListener('click', () => {
+      const expanded = pillNav.classList.toggle('expanded');
+      pillMoreBtn.setAttribute('aria-expanded', String(expanded));
+      if (pillMoreText) pillMoreText.textContent = expanded ? 'View Less' : 'View More';
+      if (pillMoreIcon) pillMoreIcon.setAttribute('data-lucide', expanded ? 'arrow-left' : 'arrow-right');
+      if (window.lucide) lucide.createIcons();
+      requestAnimationFrame(() => {
+        pillNav.scrollTo({left: expanded ? pillNav.scrollWidth : 0, behavior:'smooth'});
+      });
+    });
+  }
+
+  // Lightbox galleries — images are loaded only when opened (lazy)
+  const galleries={
+    'iron-land':[
+      'https://res.cloudinary.com/k7sengsa/image/upload/v1790964021/unnamed_2.webp',
+      'https://res.cloudinary.com/k7sengsa/image/upload/v1791137674/1791137520473.jpg',
+      'https://res.cloudinary.com/k7sengsa/image/upload/v1791137695/1791137516702.jpg',
+      'https://res.cloudinary.com/k7sengsa/image/upload/v1791137712/1791137512913.jpg',
+      'https://res.cloudinary.com/k7sengsa/image/upload/v1791137738/1791137508911.jpg'
+    ],
+    'black-house':['https://res.cloudinary.com/k7sengsa/image/upload/v1790963518/unnamed_1.webp','https://res.cloudinary.com/k7sengsa/image/upload/v1790964565/unnamed.jpg'],
+    'le-baratier':['https://res.cloudinary.com/k7sengsa/image/upload/v1790974389/IMG_20261002_215006.jpg'],
+    'iron-gym':['https://res.cloudinary.com/k7sengsa/image/upload/v1790964947/unnamed_3.webp'],
+    'iron-pool':['https://res.cloudinary.com/k7sengsa/image/upload/v1790972399/Screenshot_2026-10-02-20-50-22-174_com.instagram.android-edit.jpg'],
+    'creneaux':['https://res.cloudinary.com/k7sengsa/image/upload/v1790972400/Screenshot_2026-10-02-20-53-38-152_com.instagram.android-edit.jpg'],
+    'shows':['https://res.cloudinary.com/k7sengsa/image/upload/v1790972399/1790971439427.jpg'],
+    'car-wash':['https://res.cloudinary.com/k7sengsa/image/upload/v1790975160/images.jpg']
+  };
+  let galleryItems=[], galleryIndex=0;
+  const lightboxModal=document.getElementById('lightboxModal'), lightboxImg=document.getElementById('lightboxImg'), lightboxTitle=document.getElementById('lightboxTitle');
+  function showGallery(i){galleryIndex=(i+galleryItems.length)%galleryItems.length; lightboxImg.src=galleryItems[galleryIndex]; lightboxImg.alt=lightboxTitle.textContent+' photo '+(galleryIndex+1);}
+  document.querySelectorAll('[data-gallery]').forEach(btn=>btn.addEventListener('click',()=>{const key=btn.dataset.gallery; galleryItems=galleries[key]||[]; galleryIndex=0; lightboxTitle.textContent=key.replace(/-/g,' '); lightboxModal.classList.add('open'); showGallery(0);}));
+  document.getElementById('prevImg').addEventListener('click',()=>showGallery(galleryIndex-1)); document.getElementById('nextImg').addEventListener('click',()=>showGallery(galleryIndex+1));
+
+  // Delivery cart: searchable menu catalog from ALL Black House + Le Baratier items
+  const cart=[];
+  const deliveryCatalog=[];
+  const seenDeliveryItems=new Set();
+  function addCatalogItem(name,price,source){
+    if(!name || !Number.isFinite(price)) return;
+    const key=(name+'|'+price+'|'+source).toLowerCase();
+    if(seenDeliveryItems.has(key)) return;
+    seenDeliveryItems.add(key);
+    deliveryCatalog.push({name,price,source});
+  }
+  function panelLabel(panel){
+    const btn=document.querySelector('#menuModal [data-panel="'+panel.id+'"], #baratierMenuModal [data-panel="'+panel.id+'"]');
+    return btn ? btn.textContent.trim() : '';
+  }
+  document.querySelectorAll('#menuModal .price-row, #baratierMenuModal .price-row').forEach(row=>{
+    const name=(row.querySelector('span')?.textContent || '').trim();
+    const raw=(row.querySelector('strong')?.textContent || '').trim();
+    const m=raw.match(/\d[\d,]*/);
+    if(name && m){ addCatalogItem(name,Number(m[0].replace(/,/g,'')),panelLabel(row.closest('.panel'))); }
+  });
+  document.querySelectorAll('#menuModal .menu-table-row:not(.head), #baratierMenuModal .menu-table-row:not(.head)').forEach(row=>{
+    const name=(row.querySelector('strong')?.textContent || row.querySelector('span')?.textContent || '').trim();
+    const spans=[...row.querySelectorAll('span')].map(x=>x.textContent.trim());
+    const prices=spans.slice(0).map(x=>Number((x.match(/\d[\d,]*/) || [])[0]?.replace(/,/g,''))).filter(Number.isFinite);
+    const head=[...row.parentElement.querySelector('.menu-table-row.head')?.querySelectorAll('span') || []].map(x=>x.textContent.trim());
+    prices.forEach((price,i)=>addCatalogItem(name+' — '+(head[i+1]||('Option '+(i+1))),price,panelLabel(row.closest('.panel'))));
+  });
+  document.querySelectorAll('#menuModal .menu-table-row3:not(.head), #baratierMenuModal .menu-table-row3:not(.head)').forEach(row=>{
+    const name=(row.querySelector('strong')?.textContent || row.querySelector('span')?.textContent || '').trim();
+    const spans=[...row.querySelectorAll('span')].map(x=>x.textContent.trim());
+    const prices=spans.map(x=>Number((x.match(/\d[\d,]*/) || [])[0]?.replace(/,/g,''))).filter(Number.isFinite);
+    const head=[...row.parentElement.querySelector('.menu-table-row3.head')?.querySelectorAll('span') || []].map(x=>x.textContent.trim());
+    prices.forEach((price,i)=>addCatalogItem(name+' — '+(head[i+1]||('Option '+(i+1))),price,panelLabel(row.closest('.panel'))));
+  });
+
+  const deliverySearch=document.getElementById('deliveryItemSearch');
+  const deliverySuggestions=document.getElementById('deliverySuggestions');
+  function addToCart(item){
+    const existing=cart.find(x=>x.name===item.name && x.price===item.price);
+    if(existing) existing.qty++; else cart.push({name:item.name,price:item.price,qty:1,source:item.source});
+    renderCart();
+  }
+  function renderDeliverySuggestions(query){
+    const q=query.trim().toLowerCase();
+    if(!q){ deliverySuggestions.innerHTML=''; deliverySuggestions.classList.remove('open'); return; }
+    const matches=deliveryCatalog.filter(x=>(x.name+' '+x.source).toLowerCase().includes(q)).slice(0,12);
+    if(!matches.length){ deliverySuggestions.innerHTML='<div style="padding:12px 14px;color:var(--muted);">No matching item found.</div>'; deliverySuggestions.classList.add('open'); return; }
+    deliverySuggestions.innerHTML=matches.map((x,i)=>`<button type="button" class="delivery-suggestion" data-suggestion="${i}"><span>${x.name}</span><small>${x.source}</small></button>`).join('');
+    deliverySuggestions.classList.add('open');
+    deliverySuggestions.querySelectorAll('.delivery-suggestion').forEach((btn,i)=>btn.addEventListener('click',()=>{addToCart(matches[i]);deliverySearch.value='';deliverySuggestions.classList.remove('open');deliverySuggestions.innerHTML='';deliverySearch.focus();}));
+  }
+  deliverySearch.addEventListener('input',()=>renderDeliverySuggestions(deliverySearch.value));
+  deliverySearch.addEventListener('focus',()=>{if(deliverySearch.value.trim())renderDeliverySuggestions(deliverySearch.value);});
+  document.addEventListener('click',e=>{if(!e.target.closest('.delivery-search-wrap'))deliverySuggestions.classList.remove('open');});
+
+  function renderCart(){
+    const list=document.getElementById('cartList');
+    const total=cart.reduce((sum,x)=>sum+x.price*x.qty,0);
+    document.getElementById('cartTotal').textContent=total.toLocaleString()+' DA';
+    if(!cart.length){list.innerHTML='<p style="color:var(--muted);">Start typing to choose an item from the menus, or call 05 60 99 09 62.</p>';return;}
+    list.innerHTML=cart.map((x,i)=>`<div class="cart-item"><div><strong>${x.name}</strong><br><small>${x.price.toLocaleString()} DA each</small></div><div><button class="qty-btn" data-q="-" data-i="${i}">−</button> ${x.qty} <button class="qty-btn" data-q="+" data-i="${i}">+</button></div><strong>${(x.price*x.qty).toLocaleString()} DA</strong></div>`).join('');
+    list.querySelectorAll('.qty-btn').forEach(b=>b.addEventListener('click',()=>{const i=+b.dataset.i;if(b.dataset.q==='-')cart[i].qty--;else cart[i].qty++;if(cart[i].qty<=0)cart.splice(i,1);renderCart();}));
+  }
+  const cartModal=document.getElementById('cartModal');
+  document.querySelectorAll('.delivery-trigger').forEach(btn=>btn.addEventListener('click',()=>cartModal.classList.add('open')));
+  document.getElementById('sendOrderBtn').addEventListener('click',()=>{
+    if(!cart.length){alert('Add at least one item.');return;}
+    const name=document.getElementById('customerName').value.trim(), address=document.getElementById('customerAddress').value.trim(), note=document.getElementById('customerNote').value.trim();
+    const lines=cart.map(x=>`- ${x.name} x${x.qty} = ${x.price*x.qty} DA`).join('\n');
+    const total=cart.reduce((sum,x)=>sum+x.price*x.qty,0);
+    const msg=`Hello Iron Park, I would like to order for delivery.\n\nName: ${name||'-'}\nAddress: ${address||'-'}\n\nOrder:\n${lines}\n\nItems total: ${total} DA\nDelivery fee: To be confirmed${note?'\nNote: '+note:''}`;
+    window.open('https://wa.me/213560990962?text='+encodeURIComponent(msg),'_blank');
+  });
+
+  // Close overlay modals
+  document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>document.getElementById(b.dataset.close).classList.remove('open')));
+  document.querySelectorAll('.overlay-modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m)m.classList.remove('open');}));
+
+  // generic tab groups (menu categories + gym gender)
+  document.querySelectorAll('.tab-row').forEach(row => {
+    const btns = row.querySelectorAll('.tab-btn');
+    const container = row.parentElement;
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const targetId = btn.getAttribute('data-panel');
+        container.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        const target = document.getElementById(targetId);
+        if (target) target.classList.add('active');
+      });
+    });
+  });
+
+  // Subtle horizontal hint: nudge the 8-experience strip toward the right once, then return.
+  window.addEventListener('load',()=>{
+    const pillNav=document.querySelector('.pill-nav');
+    if(pillNav && window.innerWidth<=720 && pillNav.scrollWidth>pillNav.clientWidth){
+      setTimeout(()=>{
+        pillNav.scrollTo({left:42,behavior:'smooth'});
+        setTimeout(()=>pillNav.scrollTo({left:0,behavior:'smooth'}),1900);
+      },1200);
+    }
+  });
+
+  window.addEventListener('DOMContentLoaded', () => { if (window.lucide) lucide.createIcons(); });
+  window.addEventListener('load', () => { if (window.lucide) lucide.createIcons(); });
+
+  // Scroll-spy: highlight the current section in the top nav
+  (function(){
+    const links=[...document.querySelectorAll('nav.links a[href^="#"]')];
+    const map=new Map(links.map(a=>[a.getAttribute('href').slice(1),a]));
+    const spy=new IntersectionObserver(es=>{
+      es.forEach(e=>{ if(e.isIntersecting){ links.forEach(l=>l.classList.remove('is-active')); const a=map.get(e.target.id); if(a) a.classList.add('is-active'); } });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    map.forEach((a,id)=>{ const el=document.getElementById(id); if(el) spy.observe(el); });
+  })();
+
+  // Soft scroll-following glow: each card's glow rises as it nears the screen centre; the top line slides with page progress.
+  (function(){
+    const ids=['iron-land','black-house','le-baratier','iron-gym','iron-pool','creneaux','shows','car-wash'];
+    const cards=ids.map(id=>document.getElementById(id)).filter(Boolean);
+    if(!cards.length) return;
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){ cards.forEach(c=>c.style.setProperty('--glow','.4')); return; }
+    const root=document.documentElement;
+    const cur=cards.map(()=>0), tgt=cards.map(()=>0);
+    let sp=0, spT=0, raf=0;
+    function measure(){
+      const vh=window.innerHeight, max=root.scrollHeight-vh;
+      spT=max>0?Math.min(1,Math.max(0,window.scrollY/max)):0;
+      cards.forEach((c,i)=>{
+        const r=c.getBoundingClientRect();
+        const d=Math.abs((r.top+r.height/2)-vh/2)/(vh*0.9);
+        tgt[i]=Math.max(0,1-d);
+      });
+    }
+    function frame(){
+      let moving=false;
+      sp+=(spT-sp)*.08; if(Math.abs(spT-sp)>.0005) moving=true; else sp=spT;
+      root.style.setProperty('--sp',sp.toFixed(4));
+      cards.forEach((c,i)=>{
+        cur[i]+=(tgt[i]-cur[i])*.08;
+        if(Math.abs(tgt[i]-cur[i])>.003) moving=true; else cur[i]=tgt[i];
+        c.style.setProperty('--glow',cur[i].toFixed(3));
+      });
+      raf=moving?requestAnimationFrame(frame):0;
+    }
+    function kick(){ measure(); if(!raf) raf=requestAnimationFrame(frame); }
+    window.addEventListener('scroll',kick,{passive:true});
+    window.addEventListener('resize',kick);
+    window.addEventListener('load',kick);
+    kick();
+  })();
+</script>
+
+</body>
+</html>
